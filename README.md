@@ -5,7 +5,7 @@ Editor visual das configurações do servidor Project Zomboid o
 configurações explicadas em português e o arquivo pronto pra copiar de
 volta pro servidor a cada mudança.
 
-Publicado como artifact: https://claude.ai/code/artifact/5d279e7b-a906-43d0-a74f-833ff656c670
+Criado com Claude Sonnet
 
 ## Estrutura do projeto
 
