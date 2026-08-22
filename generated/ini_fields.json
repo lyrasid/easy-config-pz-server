@@ -1,0 +1,1298 @@
+[
+ {
+  "key": "PVP",
+  "value": "true",
+  "comment": "Players can hurt and kill other players",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "PVPLogToolChat",
+  "value": "true",
+  "comment": "PVP is logged to admin chat",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "PVPLogToolFile",
+  "value": "true",
+  "comment": "PVP is logged to file",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "PauseEmpty",
+  "value": "true",
+  "comment": "Game time stops when there are no players online",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "GlobalChat",
+  "value": "true",
+  "comment": "Toggles global chat on or off.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "ChatStreams",
+  "value": "s,r,a,w,y,sh,f,all",
+  "comment": "",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "Open",
+  "value": "true",
+  "comment": "Clients may join without already having an account in the whitelist. If set to false, administrators must manually create username/password combos.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "ServerWelcomeMessage",
+  "value": "Bora se divertir caralho! <LINE> <LINE> Pau no cu do mudo.",
+  "comment": "The first welcome message visible in the chat panel. This will be displayed immediately after player login. you can use RGB colours to chance the colour of the welcome message. You can also use < LINE>, without the space, to create a separate lines within your text. Use: \\<RGB:1,0,0> This message will show up red!",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DisplayUserName",
+  "value": "true",
+  "comment": "Display usernames above player's heads in-game.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "ShowFirstAndLastName",
+  "value": "false",
+  "comment": "Display first & last name above player's heads.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "UsernameDisguises",
+  "value": "false",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "HideDisguisedUserName",
+  "value": "false",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SwitchZombiesOwnershipEachUpdate",
+  "value": "false",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SpawnPoint",
+  "value": "0,0,0",
+  "comment": "Force every new player to spawn at these set x,y,z world coordinates. Find desired coordinates at map.projectzomboid.com. (Ignored when 0,0,0)",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SafetySystem",
+  "value": "true",
+  "comment": "Players can enter and leave PVP on an individual basis. A player can only hurt another player when at least one of them is in PVP mode - as shown by the unobscured skull and crossbones on the left of the screen. When SafetySystem=false, players are free to hurt each other at any time if PVP is enabled.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "ShowSafety",
+  "value": "true",
+  "comment": "Display a skull icon over the head of players who have entered PVP mode",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SafetyToggleTimer",
+  "value": "2",
+  "comment": "The time it takes for a player to enter and leave PVP mode Min: 0 Max: 1000 Default: 2",
+  "is_bool": false,
+  "min": "0",
+  "max": "1000",
+  "default": "2"
+ },
+ {
+  "key": "SafetyCooldownTimer",
+  "value": "3",
+  "comment": "The delay before a player can enter or leave PVP mode again, having recently done so Min: 0 Max: 1000 Default: 3",
+  "is_bool": false,
+  "min": "0",
+  "max": "1000",
+  "default": "3"
+ },
+ {
+  "key": "SafetyDisconnectDelay",
+  "value": "60",
+  "comment": "Min: 0 Max: 60 Default: 60",
+  "is_bool": false,
+  "min": "0",
+  "max": "60",
+  "default": "60"
+ },
+ {
+  "key": "SpawnItems",
+  "value": "Base.Bag_Schoolbag,Base.WaterBottleFull,Base.Boxofcrackers,Base.Crowbar,Base.Hammer,Base.Bandage",
+  "comment": "Item types new players spawn with. Separate multiple item types with commas. Example: Base.Axe,Base.Bag_BigHikingBag",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DefaultPort",
+  "value": "16261",
+  "comment": "Default starting port for player data. If UDP, this is this one of two ports used. Min: 0 Max: 65535 Default: 16261",
+  "is_bool": false,
+  "min": "0",
+  "max": "65535",
+  "default": "16261"
+ },
+ {
+  "key": "UDPPort",
+  "value": "16262",
+  "comment": "Min: 0 Max: 65535 Default: 16262",
+  "is_bool": false,
+  "min": "0",
+  "max": "65535",
+  "default": "16262"
+ },
+ {
+  "key": "ResetID",
+  "value": "2395835",
+  "comment": "Reset ID determines if the server has undergone a soft-reset. If this number does match the client, the client must create a new character. Used in conjunction with PlayerServerID. It is strongly advised that you backup these IDs somewhere Min: 0 Max: 2147483647 Default: 891661716",
+  "is_bool": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "891661716"
+ },
+ {
+  "key": "Mods",
+  "value": "",
+  "comment": "Enter the mod loading ID here. It can be found in \\Steam\\steamapps\\workshop\\modID\\mods\\modName\\info.txt",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "Map",
+  "value": "Muldraugh, KY",
+  "comment": "Enter the foldername of the mod found in \\Steam\\steamapps\\workshop\\modID\\mods\\modName\\media\\maps\\",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DoLuaChecksum",
+  "value": "true",
+  "comment": "Kick clients whose game files don't match the server's.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DenyLoginOnOverloadedServer",
+  "value": "true",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "Public",
+  "value": "false",
+  "comment": "Shows the server on the in-game browser. (Note: Steam-enabled servers are always visible in the Steam server browser)",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "PublicName",
+  "value": "Duo",
+  "comment": "Name of the server displayed in the in-game browser and, if applicable, the Steam browser",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "PublicDescription",
+  "value": "",
+  "comment": "Description displayed in the in-game public server browser. Typing   will create a new line in your description",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "MaxPlayers",
+  "value": "16",
+  "comment": "Maximum number of players that can be on the server at one time. This excludes admins. WARNING: Server player counts above 32 will potentially result in poor map streaming and desync. Please advance with caution. Min: 1 Max: 254 Default: 32",
+  "is_bool": false,
+  "min": "1",
+  "max": "254",
+  "default": "32"
+ },
+ {
+  "key": "PingLimit",
+  "value": "400",
+  "comment": "Ping limit, in milliseconds, before a player is kicked from the server. (Set to 0 to disable) Min: 0 Max: 2147483647 Default: 0",
+  "is_bool": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "0"
+ },
+ {
+  "key": "SafehousePreventsLootRespawn",
+  "value": "true",
+  "comment": "Items will not respawn in buildings that players have claimed as a safehouse",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DropOffWhiteListAfterDeath",
+  "value": "false",
+  "comment": "Remove player accounts from the whitelist after death. This prevents players creating a new character after death on Open=false servers",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "NoFire",
+  "value": "false",
+  "comment": "All forms of fire are disabled - except for campfires",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AnnounceDeath",
+  "value": "false",
+  "comment": "If checked, every time a player dies a global message will be displayed in the chat",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AnnounceAnimalDeath",
+  "value": "false",
+  "comment": "If checked, every time an animal dies a global message will be displayed in the chat",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SaveWorldEveryMinutes",
+  "value": "15",
+  "comment": "Loaded parts of the map are saved after this set number of real-world minutes have passed. (The map is usually saved only after clients leave a loaded area) Min: 0 Max: 2147483647 Default: 0",
+  "is_bool": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "0"
+ },
+ {
+  "key": "PlayerSafehouse",
+  "value": "true",
+  "comment": "Both admins and players can claim safehouses",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AdminSafehouse",
+  "value": "false",
+  "comment": "Only admins can claim safehouses",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SafehouseAllowTrepass",
+  "value": "false",
+  "comment": "Allow non-members to enter a safehouse without being invited",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SafehouseAllowFire",
+  "value": "true",
+  "comment": "Allow fire to damage safehouses",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SafehouseAllowLoot",
+  "value": "false",
+  "comment": "Allow non-members to take items from safehouses",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SafehouseAllowRespawn",
+  "value": "false",
+  "comment": "Players will respawn in a safehouse that they were a member of before they died",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SafehouseDaySurvivedToClaim",
+  "value": "0",
+  "comment": "Players must have survived this number of in-game days before they are allowed to claim a safehouse Min: 0 Max: 2147483647 Default: 0",
+  "is_bool": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "0"
+ },
+ {
+  "key": "SafeHouseRemovalTime",
+  "value": "144",
+  "comment": "Players are automatically removed from a safehouse they have not visited for this many real-world hours Min: 0 Max: 2147483647 Default: 144",
+  "is_bool": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "144"
+ },
+ {
+  "key": "SafehouseAllowNonResidential",
+  "value": "true",
+  "comment": "Governs whether players can claim non-residential buildings.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SafehouseDisableDisguises",
+  "value": "true",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "MaxSafezoneSize",
+  "value": "20000",
+  "comment": "Min: 0 Max: 2147483647 Default: 20000",
+  "is_bool": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "20000"
+ },
+ {
+  "key": "AllowDestructionBySledgehammer",
+  "value": "true",
+  "comment": "Allow players to destroy world objects with sledgehammers",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SledgehammerOnlyInSafehouse",
+  "value": "false",
+  "comment": "Allow players to destroy world objects only in their safehouse (require AllowDestructionBySledgehammer to true).",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "War",
+  "value": "false",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "WarStartDelay",
+  "value": "600",
+  "comment": "Time in seconds before the war starts. Min: 60 Max: 2147483647 Default: 600",
+  "is_bool": false,
+  "min": "60",
+  "max": "2147483647",
+  "default": "600"
+ },
+ {
+  "key": "WarDuration",
+  "value": "3600",
+  "comment": "War duration in seconds. Min: 60 Max: 2147483647 Default: 3600",
+  "is_bool": false,
+  "min": "60",
+  "max": "2147483647",
+  "default": "3600"
+ },
+ {
+  "key": "WarSafehouseHitPoints",
+  "value": "3",
+  "comment": "Safehouse hit points limit. Min: 0 Max: 2147483647 Default: 3",
+  "is_bool": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "3"
+ },
+ {
+  "key": "ServerPlayerID",
+  "value": "",
+  "comment": "ServerPlayerID determines if a character is from another server, or single player. This value may be changed by soft resets. If this number does match the client, the client must create a new character. This is used in conjunction with ResetID. It is strongly advised that you backup these IDs somewhere",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "RCONPort",
+  "value": "27015",
+  "comment": "The port for the RCON (Remote Console) Min: 0 Max: 65535 Default: 27015",
+  "is_bool": false,
+  "min": "0",
+  "max": "65535",
+  "default": "27015"
+ },
+ {
+  "key": "RCONPassword",
+  "value": "",
+  "comment": "RCON password (Pick a strong password)",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DiscordEnable",
+  "value": "false",
+  "comment": "Enables global text chat integration with a Discord channel",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DiscordToken",
+  "value": "",
+  "comment": "Discord bot access token",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DiscordChatChannel",
+  "value": "",
+  "comment": "The Discord chat channel name",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DiscordLogChannel",
+  "value": "",
+  "comment": "The Discord logs channel name",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DiscordCommandChannel",
+  "value": "",
+  "comment": "The Discord commands channel name",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "WebhookAddress",
+  "value": "",
+  "comment": "The Slack incoming webhook URL",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "Password",
+  "value": "1q2w3e4r",
+  "comment": "Clients must know this password to join the server. (Ignored when hosting a server via the Host button)",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "MaxAccountsPerUser",
+  "value": "0",
+  "comment": "Limits the number of different accounts a single Steam user may create on this server. Ignored when using the Hosts button. Min: 0 Max: 2147483647 Default: 0",
+  "is_bool": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "0"
+ },
+ {
+  "key": "AllowCoop",
+  "value": "true",
+  "comment": "Allow co-op/splitscreen players",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SleepAllowed",
+  "value": "true",
+  "comment": "Players are allowed to sleep when their survivor becomes tired, but they do not NEED to sleep",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SleepNeeded",
+  "value": "false",
+  "comment": "Players get tired and need to sleep. (Ignored if SleepAllowed=false)",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "KnockedDownAllowed",
+  "value": "true",
+  "comment": "WIP: Activating this setting may cause visual desynchronization of player positions.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SneakModeHideFromOtherPlayers",
+  "value": "true",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "UltraSpeedDoesnotAffectToAnimals",
+  "value": "false",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "WorkshopItems",
+  "value": "",
+  "comment": "List Workshop Mod IDs for the server to download. Each must be separated by a semicolon. Example: WorkshopItems=514427485;513111049",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SteamScoreboard",
+  "value": "true",
+  "comment": "Show Steam usernames and avatars in the Players list.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SteamVAC",
+  "value": "true",
+  "comment": "Enable the Steam VAC system",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "UPnP",
+  "value": "true",
+  "comment": "Attempt to configure a UPnP-enabled internet gateway to automatically setup port forwarding rules. The server will fall back to default ports if this fails",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "VoiceEnable",
+  "value": "true",
+  "comment": "VOIP is enabled when checked",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "VoiceMinDistance",
+  "value": "10.0",
+  "comment": "The minimum tile distance over which VOIP sounds can be heard. Min: 0.00 Max: 100000.00 Default: 10.00",
+  "is_bool": false,
+  "min": "0.00",
+  "max": "100000.00",
+  "default": "10.00"
+ },
+ {
+  "key": "VoiceMaxDistance",
+  "value": "100.0",
+  "comment": "The maximum tile distance over which VOIP sounds can be heard. Min: 0.00 Max: 100000.00 Default: 100.00",
+  "is_bool": false,
+  "min": "0.00",
+  "max": "100000.00",
+  "default": "100.00"
+ },
+ {
+  "key": "Voice3D",
+  "value": "true",
+  "comment": "Toggle directional audio for VOIP",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "SpeedLimit",
+  "value": "70.0",
+  "comment": "Min: 10.00 Max: 150.00 Default: 70.00",
+  "is_bool": false,
+  "min": "10.00",
+  "max": "150.00",
+  "default": "70.00"
+ },
+ {
+  "key": "LoginQueueEnabled",
+  "value": "false",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "LoginQueueConnectTimeout",
+  "value": "60",
+  "comment": "Min: 20 Max: 1200 Default: 60",
+  "is_bool": false,
+  "min": "20",
+  "max": "1200",
+  "default": "60"
+ },
+ {
+  "key": "server_browser_announced_ip",
+  "value": "",
+  "comment": "Set the IP from which the server is broadcast. This is for network configurations with multiple IP addresses, such as server farms",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "PlayerRespawnWithSelf",
+  "value": "true",
+  "comment": "Players can respawn in-game at the coordinates where they died",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "PlayerRespawnWithOther",
+  "value": "false",
+  "comment": "Players can respawn in-game at a split screen / Remote Play player's location",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "FastForwardMultiplier",
+  "value": "40.0",
+  "comment": "Governs how fast time passes while players sleep. Value multiplies the speed of the time that passes during sleeping. Min: 1.00 Max: 100.00 Default: 40.00",
+  "is_bool": false,
+  "min": "1.00",
+  "max": "100.00",
+  "default": "40.00"
+ },
+ {
+  "key": "DisableSafehouseWhenOwnerConnected",
+  "value": "false",
+  "comment": "Safehouse acts like a normal house if an owner of the safehouse is connected (so secure when the owner is offline)",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "Faction",
+  "value": "true",
+  "comment": "Players can create factions when true",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "FactionDaySurvivedToCreate",
+  "value": "0",
+  "comment": "Players must survive this number of in-game days before being allowed to create a faction Min: 0 Max: 2147483647 Default: 0",
+  "is_bool": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "0"
+ },
+ {
+  "key": "FactionPlayersRequiredForTag",
+  "value": "1",
+  "comment": "Number of players required as faction members before the faction owner can create a group tag Min: 1 Max: 2147483647 Default: 1",
+  "is_bool": false,
+  "min": "1",
+  "max": "2147483647",
+  "default": "1"
+ },
+ {
+  "key": "DisableRadioStaff",
+  "value": "false",
+  "comment": "Disables radio transmissions from players with an access level",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DisableRadioAdmin",
+  "value": "true",
+  "comment": "Disables radio transmissions from players with 'admin' access level",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DisableRadioGM",
+  "value": "true",
+  "comment": "Disables radio transmissions from players with 'gm' access level",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DisableRadioOverseer",
+  "value": "false",
+  "comment": "Disables radio transmissions from players with 'overseer' access level",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DisableRadioModerator",
+  "value": "false",
+  "comment": "Disables radio transmissions from players with 'moderator' access level",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DisableRadioInvisible",
+  "value": "true",
+  "comment": "Disables radio transmissions from invisible players",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "ClientCommandFilter",
+  "value": "-vehicle.*;+vehicle.damageWindow;+vehicle.fixPart;+vehicle.installPart;+vehicle.uninstallPart",
+  "comment": "Semicolon-separated list of commands that will not be written to the cmd.txt server log. For example:  -vehicle. Inputting * means do NOT write any vehicle command. Inputting:  +vehicle.installPart means DO write that command",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "ClientActionLogs",
+  "value": "ISEnterVehicle;ISExitVehicle;ISTakeEngineParts;",
+  "comment": "Semicolon-separated list of actions that will be written to the ClientActionLogs.txt server log.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "PerkLogs",
+  "value": "true",
+  "comment": "Track changes in player perk levels in PerkLog.txt server log",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "ItemNumbersLimitPerContainer",
+  "value": "0",
+  "comment": "Maximum number of items that can be placed in a container.  Zero means there is no limit. (PLEASE NOTE: This includes individual small items such as nails. A limit of 50 will mean only 50 nails can be stored.) Min: 0 Max: 9000 Default: 0",
+  "is_bool": false,
+  "min": "0",
+  "max": "9000",
+  "default": "0"
+ },
+ {
+  "key": "BloodSplatLifespanDays",
+  "value": "0",
+  "comment": "Number of days before old blood splats are removed. Removal happens when map chunks are loaded. Zero means they will never disappear Min: 0 Max: 365 Default: 0",
+  "is_bool": false,
+  "min": "0",
+  "max": "365",
+  "default": "0"
+ },
+ {
+  "key": "AllowNonAsciiUsername",
+  "value": "false",
+  "comment": "Allow use of non-ASCII (cyrillic etc) characters in usernames",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "BanKickGlobalSound",
+  "value": "true",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "RemovePlayerCorpsesOnCorpseRemoval",
+  "value": "false",
+  "comment": "If enabled, when HoursForCorpseRemoval triggers, it will also remove player's corpses from the ground.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "TrashDeleteAll",
+  "value": "false",
+  "comment": "If true, player can use the \"delete all\" button on bins.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "PVPMeleeWhileHitReaction",
+  "value": "true",
+  "comment": "If true, player can hit again when struck by another player.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "MouseOverToSeeDisplayName",
+  "value": "true",
+  "comment": "If true, players will have to mouse over someone to see their display name.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "HidePlayersBehindYou",
+  "value": "true",
+  "comment": "If true, automatically hide the player you can't see (like zombies).",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "PVPMeleeDamageModifier",
+  "value": "30.0",
+  "comment": "Damage multiplier for PVP melee attacks. Min: 0.00 Max: 500.00 Default: 30.00",
+  "is_bool": false,
+  "min": "0.00",
+  "max": "500.00",
+  "default": "30.00"
+ },
+ {
+  "key": "PVPFirearmDamageModifier",
+  "value": "50.0",
+  "comment": "Damage multiplier for PVP ranged attacks. Min: 0.00 Max: 500.00 Default: 50.00",
+  "is_bool": false,
+  "min": "0.00",
+  "max": "500.00",
+  "default": "50.00"
+ },
+ {
+  "key": "CarEngineAttractionModifier",
+  "value": "0.5",
+  "comment": "Modify the range of zombie attraction to cars. (Lower values can help with lag.) Min: 0.00 Max: 10.00 Default: 0.50",
+  "is_bool": false,
+  "min": "0.00",
+  "max": "10.00",
+  "default": "0.50"
+ },
+ {
+  "key": "PlayerBumpPlayer",
+  "value": "false",
+  "comment": "Governs whether players bump (and knock over) other players when running through them.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "MapRemotePlayerVisibility",
+  "value": "2",
+  "comment": "Controls display of remote players on the in-game map. 1=Hidden 2=Friends 3=Friends and nearby players 4=Everyone Min: 1 Max: 4 Default: 1",
+  "is_bool": false,
+  "min": "1",
+  "max": "4",
+  "default": "1"
+ },
+ {
+  "key": "BackupsCount",
+  "value": "5",
+  "comment": "Min: 1 Max: 300 Default: 5",
+  "is_bool": false,
+  "min": "1",
+  "max": "300",
+  "default": "5"
+ },
+ {
+  "key": "BackupsOnStart",
+  "value": "true",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "BackupsOnVersionChange",
+  "value": "true",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "BackupsPeriod",
+  "value": "5",
+  "comment": "Min: 0 Max: 1500 Default: 0",
+  "is_bool": false,
+  "min": "0",
+  "max": "1500",
+  "default": "0"
+ },
+ {
+  "key": "DisableVehicleTowing",
+  "value": "false",
+  "comment": "Disables vehicle towing",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DisableTrailerTowing",
+  "value": "false",
+  "comment": "Disables trailer towing",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "DisableBurntTowing",
+  "value": "false",
+  "comment": "Disables burnt vehicle towing",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "BadWordListFile",
+  "value": "",
+  "comment": "Path to the file with the list of words to be prohibited. Each word must be on a separate line",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "GoodWordListFile",
+  "value": "",
+  "comment": "Path to the file with the list of words that should be allowed, even if they contain bad word. Each word should be on a separate line.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "BadWordPolicy",
+  "value": "3",
+  "comment": "What to do with the sender of a bad word in the chat: 1 - ban, 2 - kick, 3 - record the violation in the database, 4 - mute",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "BadWordReplacement",
+  "value": "[HIDDEN]",
+  "comment": "The symbol or piece of text that will replace the bad word",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AntiCheatSafety",
+  "value": "4",
+  "comment": "Disables safety system anti-cheat protection.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AntiCheatSpeed",
+  "value": "2",
+  "comment": "Disables character speed anti-cheat protection.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AntiCheatNoClip",
+  "value": "4",
+  "comment": "Disables character no-clipping anti-cheat protection.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AntiCheatHit",
+  "value": "4",
+  "comment": "Disables character hit anti-cheat protection.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AntiCheatPacketException",
+  "value": "4",
+  "comment": "Disables packet exception checks anti-cheat protection.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AntiCheatPermission",
+  "value": "2",
+  "comment": "Disables player permissions anti-cheat protection.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AntiCheatXP",
+  "value": "2",
+  "comment": "Disables player XP anti-cheat protection.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AntiCheatSafeHouse",
+  "value": "2",
+  "comment": "Disables safehouse anti-cheat protection.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AntiCheatPlayer",
+  "value": "2",
+  "comment": "Disables player anti-cheat protection.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "AntiCheatChecksum",
+  "value": "4",
+  "comment": "Disables checksum anti-cheat protection.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "MultiplayerStatisticsPeriod",
+  "value": "1",
+  "comment": "Sets the multiplayer update period in seconds. Statistics is disabled if value is 0. Min: 0 Max: 10 Default: 1",
+  "is_bool": false,
+  "min": "0",
+  "max": "10",
+  "default": "1"
+ },
+ {
+  "key": "DisableScoreboard",
+  "value": "false",
+  "comment": "Disables scoreboard.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "HideAdminsInPlayerList",
+  "value": "false",
+  "comment": "Hides admins in the player list.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "MaxPacketsPerSecond",
+  "value": "300",
+  "comment": "Sets the limit for processing network packets from each client on the server. Min: 100 Max: 1000 Default: 300",
+  "is_bool": false,
+  "min": "100",
+  "max": "1000",
+  "default": "300"
+ },
+ {
+  "key": "ShowCoordinates",
+  "value": "false",
+  "comment": "Shows player character coordinates in the lower right corner.",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "Seed",
+  "value": "hlGjYNvpPLXiCtcv",
+  "comment": "The worldgen seed used to generate the world. If you want to change this, put a new value in and delete map_worldgen.bin in your save directory.",
+  "is_bool": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "UsePhysicsHitReaction",
+  "value": "false",
+  "comment": "",
+  "is_bool": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "key": "ChatMessageCharacterLimit",
+  "value": "200",
+  "comment": "Min: 64 Max: 1024 Default: 200",
+  "is_bool": false,
+  "min": "64",
+  "max": "1024",
+  "default": "200"
+ },
+ {
+  "key": "ChatMessageSlowModeTime",
+  "value": "3",
+  "comment": "Min: 1 Max: 30 Default: 3",
+  "is_bool": false,
+  "min": "1",
+  "max": "30",
+  "default": "3"
+ }
+]

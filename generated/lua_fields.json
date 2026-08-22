@@ -1,0 +1,4926 @@
+[
+ {
+  "path": "Zombies",
+  "value": "4",
+  "comment": "Changing this also sets the \"Population Multiplier\" in Advanced Zombie Options. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Insane"
+   ],
+   [
+    "2",
+    "Very High"
+   ],
+   [
+    "3",
+    "High"
+   ],
+   [
+    "4",
+    "Normal"
+   ],
+   [
+    "5",
+    "Low"
+   ],
+   [
+    "6",
+    "None"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "Distribution",
+  "value": "1",
+  "comment": "How zombies are distributed across the map. Default = Urban Focused",
+  "options": [
+   [
+    "1",
+    "Urban Focused"
+   ],
+   [
+    "2",
+    "Uniform"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieVoronoiNoise",
+  "value": "true",
+  "comment": "Controls whether some randomization is applied to zombie distribution.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieRespawn",
+  "value": "4",
+  "comment": "How frequently new zombies are added to the world. Default = None",
+  "options": [
+   [
+    "1",
+    "High"
+   ],
+   [
+    "2",
+    "Normal"
+   ],
+   [
+    "3",
+    "Low"
+   ],
+   [
+    "4",
+    "None"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieMigrate",
+  "value": "true",
+  "comment": "Zombie allowed to migrate to empty cells.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "DayLength",
+  "value": "4",
+  "comment": "Default = 1 Hour, 30 Minutes",
+  "options": [
+   [
+    "1",
+    "15 Minutes"
+   ],
+   [
+    "2",
+    "30 Minutes"
+   ],
+   [
+    "3",
+    "1 Hour"
+   ],
+   [
+    "4",
+    "1 Hour, 30 Minutes"
+   ],
+   [
+    "5",
+    "2 Hours"
+   ],
+   [
+    "6",
+    "3 Hours"
+   ],
+   [
+    "7",
+    "4 Hours"
+   ],
+   [
+    "8",
+    "5 Hours"
+   ],
+   [
+    "9",
+    "6 Hours"
+   ],
+   [
+    "10",
+    "7 Hours"
+   ],
+   [
+    "11",
+    "8 Hours"
+   ],
+   [
+    "12",
+    "9 Hours"
+   ],
+   [
+    "13",
+    "10 Hours"
+   ],
+   [
+    "14",
+    "11 Hours"
+   ],
+   [
+    "15",
+    "12 Hours"
+   ],
+   [
+    "16",
+    "13 Hours"
+   ],
+   [
+    "17",
+    "14 Hours"
+   ],
+   [
+    "18",
+    "15 Hours"
+   ],
+   [
+    "19",
+    "16 Hours"
+   ],
+   [
+    "20",
+    "17 Hours"
+   ],
+   [
+    "21",
+    "18 Hours"
+   ],
+   [
+    "22",
+    "19 Hours"
+   ],
+   [
+    "23",
+    "20 Hours"
+   ],
+   [
+    "24",
+    "21 Hours"
+   ],
+   [
+    "25",
+    "22 Hours"
+   ],
+   [
+    "26",
+    "23 Hours"
+   ],
+   [
+    "27",
+    "Real-time"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "StartYear",
+  "value": "1",
+  "comment": "",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "StartMonth",
+  "value": "7",
+  "comment": "Month in which the game starts. Default = July",
+  "options": [
+   [
+    "1",
+    "January"
+   ],
+   [
+    "2",
+    "February"
+   ],
+   [
+    "3",
+    "March"
+   ],
+   [
+    "4",
+    "April"
+   ],
+   [
+    "5",
+    "May"
+   ],
+   [
+    "6",
+    "June"
+   ],
+   [
+    "7",
+    "July"
+   ],
+   [
+    "8",
+    "August"
+   ],
+   [
+    "9",
+    "September"
+   ],
+   [
+    "10",
+    "October"
+   ],
+   [
+    "11",
+    "November"
+   ],
+   [
+    "12",
+    "December"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "StartDay",
+  "value": "9",
+  "comment": "Day of the month in which the games starts.",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "StartTime",
+  "value": "2",
+  "comment": "Hour of the day in which the game starts. Default = 9 AM",
+  "options": [
+   [
+    "1",
+    "7 AM"
+   ],
+   [
+    "2",
+    "9 AM"
+   ],
+   [
+    "3",
+    "12 PM"
+   ],
+   [
+    "4",
+    "2 PM"
+   ],
+   [
+    "5",
+    "5 PM"
+   ],
+   [
+    "6",
+    "9 PM"
+   ],
+   [
+    "7",
+    "12 AM"
+   ],
+   [
+    "8",
+    "2 AM"
+   ],
+   [
+    "9",
+    "5 AM"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "DayNightCycle",
+  "value": "1",
+  "comment": "Whether the time of day changes naturally, or it's always day/night. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Normal"
+   ],
+   [
+    "2",
+    "Endless Day"
+   ],
+   [
+    "3",
+    "Endless Night"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ClimateCycle",
+  "value": "1",
+  "comment": "Whether weather changes or remains at a single state. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Normal"
+   ],
+   [
+    "2",
+    "No Weather"
+   ],
+   [
+    "3",
+    "Endless Rain"
+   ],
+   [
+    "4",
+    "Endless Storm"
+   ],
+   [
+    "5",
+    "Endless Snow"
+   ],
+   [
+    "6",
+    "Endless Blizzard"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "FogCycle",
+  "value": "1",
+  "comment": "Whether fog occurs naturally, never occurs, or is always present. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Normal"
+   ],
+   [
+    "2",
+    "No Fog"
+   ],
+   [
+    "3",
+    "Endless Fog"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "WaterShut",
+  "value": "2",
+  "comment": "How long after the default start date (July 9, 1993) that plumbing fixtures (eg. sinks) stop being infinite sources of water. Default = 0 - 30 Days",
+  "options": [
+   [
+    "1",
+    "Instant"
+   ],
+   [
+    "2",
+    "0 - 30 Days"
+   ],
+   [
+    "3",
+    "0 - 2 Months"
+   ],
+   [
+    "4",
+    "0 - 6 Months"
+   ],
+   [
+    "5",
+    "0 - 1 Year"
+   ],
+   [
+    "6",
+    "0 - 5 Years"
+   ],
+   [
+    "7",
+    "2 - 6 Months"
+   ],
+   [
+    "8",
+    "6 - 12 Months"
+   ],
+   [
+    "9",
+    "Disabled"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ElecShut",
+  "value": "2",
+  "comment": "How long after the default start date (July 9, 1993) that the world's electricity turns off for good. Default = 14 - 30 Days",
+  "options": [
+   [
+    "1",
+    "Instant"
+   ],
+   [
+    "2",
+    "14 - 30 Days"
+   ],
+   [
+    "3",
+    "14 Days - 2 Months"
+   ],
+   [
+    "4",
+    "14 Days - 6 Months"
+   ],
+   [
+    "5",
+    "14 Days - 1 Year"
+   ],
+   [
+    "6",
+    "14 Days - 5 Years"
+   ],
+   [
+    "7",
+    "2 - 6 Months"
+   ],
+   [
+    "8",
+    "6 - 12 Months"
+   ],
+   [
+    "9",
+    "Disabled"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AlarmDecay",
+  "value": "2",
+  "comment": "How long alarm batteries can last for after the power shuts off. Default = 0 - 30 Days",
+  "options": [
+   [
+    "1",
+    "Instant"
+   ],
+   [
+    "2",
+    "0 - 30 Days"
+   ],
+   [
+    "3",
+    "0 - 2 Months"
+   ],
+   [
+    "4",
+    "0 - 6 Months"
+   ],
+   [
+    "5",
+    "0 - 1 Year"
+   ],
+   [
+    "6",
+    "0 - 5 Years"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "WaterShutModifier",
+  "value": "80",
+  "comment": "How long after the default start date (July 9, 1993) that plumbing fixtures (eg. sinks) stop being infinite sources of water. Min: -1 Max: 2147483647 Default: 14",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "-1",
+  "max": "2147483647",
+  "default": "14"
+ },
+ {
+  "path": "ElecShutModifier",
+  "value": "30",
+  "comment": "How long after the default start date (July 9, 1993) that the world's electricity turns off for good. Min: -1 Max: 2147483647 Default: 14",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "-1",
+  "max": "2147483647",
+  "default": "14"
+ },
+ {
+  "path": "AlarmDecayModifier",
+  "value": "14",
+  "comment": "How long alarm batteries can last for after the power shuts off. Min: -1 Max: 2147483647 Default: 14",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "-1",
+  "max": "2147483647",
+  "default": "14"
+ },
+ {
+  "path": "FoodLootNew",
+  "value": "0.8",
+  "comment": "Any food that can rot or spoil. Min: 0.00 Max: 4.00 Default: 0.80",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.80"
+ },
+ {
+  "path": "LiteratureLootNew",
+  "value": "0.6",
+  "comment": "All other items that can be read, including books, fliers, and newspapers. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "SkillBookLoot",
+  "value": "0.6",
+  "comment": "Books that provide skill XP multipliers. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "RecipeResourceLoot",
+  "value": "0.6",
+  "comment": "Items that teach recipes. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "MedicalLootNew",
+  "value": "0.6",
+  "comment": "Medicine, bandages and first aid tools. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "SurvivalGearsLootNew",
+  "value": "0.6",
+  "comment": "Fishing Rods, Tents, camping gear etc. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "CannedFoodLootNew",
+  "value": "0.6",
+  "comment": "Canned and dried food, beverages. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "WeaponLootNew",
+  "value": "0.6",
+  "comment": "Weapons that are not tools in other categories. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "RangedWeaponLootNew",
+  "value": "1.2",
+  "comment": "Also includes weapon attachments. Min: 0.00 Max: 4.00 Default: 1.20",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "1.20"
+ },
+ {
+  "path": "AmmoLootNew",
+  "value": "0.6",
+  "comment": "Loose ammo, boxes and magazines. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "MechanicsLootNew",
+  "value": "0.6",
+  "comment": "Vehicle parts and the tools needed to install them. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "OtherLootNew",
+  "value": "0.8",
+  "comment": "Everything else. Also affects foraging for all items in Town/Road zones. Min: 0.00 Max: 4.00 Default: 0.80",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.80"
+ },
+ {
+  "path": "ClothingLootNew",
+  "value": "0.6",
+  "comment": "All wearable items that are not containers. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "ContainerLootNew",
+  "value": "0.6",
+  "comment": "Backpacks and other wearable/equippable containers, eg. cases. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "KeyLootNew",
+  "value": "0.4",
+  "comment": "Keys for buildings/cars, key rings, and locks. Min: 0.00 Max: 4.00 Default: 0.40",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.40"
+ },
+ {
+  "path": "MediaLootNew",
+  "value": "0.6",
+  "comment": "VHS tapes and CDs. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "MementoLootNew",
+  "value": "0.6",
+  "comment": "Spiffo items, plushies, and other collectible keepsake items eg. Photos. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "CookwareLootNew",
+  "value": "0.6",
+  "comment": "Items that are used in cooking, including those (eg. knives) which can be weapons. Does not include food. Includes both usable and unusable items. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "MaterialLootNew",
+  "value": "0.6",
+  "comment": "Items and weapons that are used as ingredients for crafting or building. This is a general category that does not include items belonging to other categories such as Cookware or Medical. Does not include Tools. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "FarmingLootNew",
+  "value": "0.6",
+  "comment": "Items and weapons which are used in both animal and plant agriculture, such as Seeds, Trowels, or Shovels. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "ToolLootNew",
+  "value": "0.6",
+  "comment": "Items and weapons which are Tools but don't fit in other categories such as Mechanics or Farming. Min: 0.00 Max: 4.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.60"
+ },
+ {
+  "path": "RollsMultiplier",
+  "value": "1.0",
+  "comment": "<BHC> [!] It is recommended that you DO NOT change this. [!] <RGB:1,1,1>   Can be used to adjust the number of rolls made on loot tables when spawning loot. Will not reduce the number of rolls below 1. Can negatively affect performance if set to high values. It is highly recommended that this not be changed. Min: 0.10 Max: 100.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.10",
+  "max": "100.00",
+  "default": "1.00"
+ },
+ {
+  "path": "LootItemRemovalList",
+  "value": "",
+  "comment": "A comma-separated list of item types that won't spawn as ordinary loot.",
+  "options": [],
+  "is_bool": false,
+  "is_string": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "RemoveStoryLoot",
+  "value": "false",
+  "comment": "If enabled, items on the Loot Item Removal List, or that have their rarity set to 'None', will not spawn in randomised world stories.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "RemoveZombieLoot",
+  "value": "false",
+  "comment": "If enabled, items on the Loot Item Removal List, or that have their rarity set to 'None', will not spawn worn by, or attached to, zombies.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombiePopLootEffect",
+  "value": "0",
+  "comment": "If greater than 0, the spawn of loot is increased relative to the number of nearby zombies,  with the effect multiplied by this number. Min: 0 Max: 20 Default: 0",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "20",
+  "default": "0"
+ },
+ {
+  "path": "InsaneLootFactor",
+  "value": "0.05",
+  "comment": "Min: 0.00 Max: 0.20 Default: 0.05",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "0.20",
+  "default": "0.05"
+ },
+ {
+  "path": "ExtremeLootFactor",
+  "value": "0.2",
+  "comment": "Min: 0.05 Max: 0.60 Default: 0.20",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.05",
+  "max": "0.60",
+  "default": "0.20"
+ },
+ {
+  "path": "RareLootFactor",
+  "value": "0.6",
+  "comment": "Min: 0.20 Max: 1.00 Default: 0.60",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.20",
+  "max": "1.00",
+  "default": "0.60"
+ },
+ {
+  "path": "NormalLootFactor",
+  "value": "1.0",
+  "comment": "Min: 0.60 Max: 2.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.60",
+  "max": "2.00",
+  "default": "1.00"
+ },
+ {
+  "path": "CommonLootFactor",
+  "value": "2.0",
+  "comment": "Min: 1.00 Max: 3.00 Default: 2.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "1.00",
+  "max": "3.00",
+  "default": "2.00"
+ },
+ {
+  "path": "AbundantLootFactor",
+  "value": "3.0",
+  "comment": "Min: 2.00 Max: 4.00 Default: 3.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "2.00",
+  "max": "4.00",
+  "default": "3.00"
+ },
+ {
+  "path": "Temperature",
+  "value": "3",
+  "comment": "The global temperature. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Cold"
+   ],
+   [
+    "2",
+    "Cold"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Hot"
+   ],
+   [
+    "5",
+    "Very Hot"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "Rain",
+  "value": "3",
+  "comment": "How often it rains. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Dry"
+   ],
+   [
+    "2",
+    "Dry"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Rainy"
+   ],
+   [
+    "5",
+    "Very Rainy"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ErosionSpeed",
+  "value": "3",
+  "comment": "Number of days until the erosion system (which adds vines, long grass, new trees etc. to the world) will reach 100% growth. Default = Slow (200 Days)",
+  "options": [
+   [
+    "1",
+    "Very Fast (20 Days)"
+   ],
+   [
+    "2",
+    "Fast (50 Days)"
+   ],
+   [
+    "3",
+    "Normal (100 Days)"
+   ],
+   [
+    "4",
+    "Slow (200 Days)"
+   ],
+   [
+    "5",
+    "Very Slow (500 Days)"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ErosionDays",
+  "value": "0",
+  "comment": "For a custom Erosion Speed. Zero means use the Erosion Speed option. Maximum is 36,500 days (approximately 100 years). Min: -1 Max: 36500 Default: 0",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "-1",
+  "max": "36500",
+  "default": "0"
+ },
+ {
+  "path": "Farming",
+  "value": "3",
+  "comment": "The speed of plant growth. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Fast"
+   ],
+   [
+    "2",
+    "Fast"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Slow"
+   ],
+   [
+    "5",
+    "Very Slow"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "CompostTime",
+  "value": "1",
+  "comment": "How long it takes for food to break down in a composter. Default = 2 Weeks",
+  "options": [
+   [
+    "1",
+    "1 Week"
+   ],
+   [
+    "2",
+    "2 Weeks"
+   ],
+   [
+    "3",
+    "3 Weeks"
+   ],
+   [
+    "4",
+    "4 Weeks"
+   ],
+   [
+    "5",
+    "6 Weeks"
+   ],
+   [
+    "6",
+    "8 Weeks"
+   ],
+   [
+    "7",
+    "10 Weeks"
+   ],
+   [
+    "8",
+    "12 Weeks"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "StatsDecrease",
+  "value": "3",
+  "comment": "How fast the player's hunger, thirst, and fatigue will decrease. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Fast"
+   ],
+   [
+    "2",
+    "Fast"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Slow"
+   ],
+   [
+    "5",
+    "Very Slow"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "NatureAbundance",
+  "value": "4",
+  "comment": "The abundance of items found in Foraging mode. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Poor"
+   ],
+   [
+    "2",
+    "Poor"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Abundant"
+   ],
+   [
+    "5",
+    "Very Abundant"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "Alarm",
+  "value": "4",
+  "comment": "How likely the player is to activate a house alarm when breaking into a new house. Default = Sometimes",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "LockedHouses",
+  "value": "4",
+  "comment": "How frequently the doors of homes and buildings will be locked when discovered. Default = Very Often",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "StarterKit",
+  "value": "true",
+  "comment": "Spawn with Chips, a Water Bottle, a Small Backpack, a Baseball Bat, and a Hammer.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "Nutrition",
+  "value": "true",
+  "comment": "Nutritional value of food affects the player's condition. Turning this off will stop the player gaining or losing weight.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "FoodRotSpeed",
+  "value": "3",
+  "comment": "How fast that food will spoil, inside or outside of a fridge. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Fast"
+   ],
+   [
+    "2",
+    "Fast"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Slow"
+   ],
+   [
+    "5",
+    "Very Slow"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "FridgeFactor",
+  "value": "3",
+  "comment": "How effective a fridge will be at keeping food fresh for longer. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Low"
+   ],
+   [
+    "2",
+    "Low"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "High"
+   ],
+   [
+    "5",
+    "Very High"
+   ],
+   [
+    "6",
+    "No decay"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "SeenHoursPreventLootRespawn",
+  "value": "0",
+  "comment": "When greater than 0, loot will not respawn in zones that have been visited within this number of in-game hours. Min: 0 Max: 2147483647 Default: 0",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "0"
+ },
+ {
+  "path": "HoursForLootRespawn",
+  "value": "0",
+  "comment": "When greater than 0, after X hours, all containers in towns and trailer parks in the world will respawn loot. To spawn loot a container must have been looted at least once. Loot respawn is not impacted by visibility or subsequent looting. Min: 0 Max: 2147483647 Default: 0",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "0"
+ },
+ {
+  "path": "MaxItemsForLootRespawn",
+  "value": "5",
+  "comment": "Containers with a number of items greater, or equal to, this setting will not respawn. Min: 0 Max: 2147483647 Default: 5",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "2147483647",
+  "default": "5"
+ },
+ {
+  "path": "ConstructionPreventsLootRespawn",
+  "value": "true",
+  "comment": "Items will not respawn in buildings that players have barricaded or built in.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "WorldItemRemovalList",
+  "value": "Base.Hat,Base.Glasses,Base.Maggots",
+  "comment": "A comma-separated list of item types that will be removed after HoursForWorldItemRemoval hours.",
+  "options": [],
+  "is_bool": false,
+  "is_string": true,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "HoursForWorldItemRemoval",
+  "value": "0.0",
+  "comment": "Number of hours since an item was dropped on the ground before it is removed.  Items are removed the next time that part of the map is loaded.   Zero means items are not removed. Min: 0.00 Max: 2147483647.00 Default: 24.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "2147483647.00",
+  "default": "24.00"
+ },
+ {
+  "path": "ItemRemovalListBlacklistToggle",
+  "value": "false",
+  "comment": "If true, any items *not* in WorldItemRemovalList will be removed.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "TimeSinceApo",
+  "value": "1",
+  "comment": "How long after the end of the world to begin. This will affect starting world erosion and food spoilage. Does not affect the starting date. Default = 0",
+  "options": [
+   [
+    "1",
+    "0"
+   ],
+   [
+    "2",
+    "1"
+   ],
+   [
+    "3",
+    "2"
+   ],
+   [
+    "4",
+    "3"
+   ],
+   [
+    "5",
+    "4"
+   ],
+   [
+    "6",
+    "5"
+   ],
+   [
+    "7",
+    "6"
+   ],
+   [
+    "8",
+    "7"
+   ],
+   [
+    "9",
+    "8"
+   ],
+   [
+    "10",
+    "9"
+   ],
+   [
+    "11",
+    "10"
+   ],
+   [
+    "12",
+    "11"
+   ],
+   [
+    "13",
+    "12"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "PlantResilience",
+  "value": "2",
+  "comment": "How much water plants will lose per day, and their ability to avoid disease. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very High"
+   ],
+   [
+    "2",
+    "High"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Low"
+   ],
+   [
+    "5",
+    "Very Low"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "PlantAbundance",
+  "value": "3",
+  "comment": "The yield of plants when harvested. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Poor"
+   ],
+   [
+    "2",
+    "Poor"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Abundant"
+   ],
+   [
+    "5",
+    "Very Abundant"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "EndRegen",
+  "value": "3",
+  "comment": "Recovery from being tired after performing actions. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Fast"
+   ],
+   [
+    "2",
+    "Fast"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Slow"
+   ],
+   [
+    "5",
+    "Very Slow"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "Helicopter",
+  "value": "2",
+  "comment": "How regularly a helicopter passes over the Event Zone. Default = Once",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Once"
+   ],
+   [
+    "3",
+    "Sometimes"
+   ],
+   [
+    "4",
+    "Often"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "MetaEvent",
+  "value": "2",
+  "comment": "How often zombie-attracting metagame events like distant gunshots will occur. Default = Sometimes",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Sometimes"
+   ],
+   [
+    "3",
+    "Often"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "SleepingEvent",
+  "value": "1",
+  "comment": "How often events during the player's sleep, like nightmares, occur. Default = Never",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Sometimes"
+   ],
+   [
+    "3",
+    "Often"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "GeneratorFuelConsumption",
+  "value": "0.1",
+  "comment": "How much fuel is consumed by generators per in-game hour. Min: 0.00 Max: 100.00 Default: 0.10",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "100.00",
+  "default": "0.10"
+ },
+ {
+  "path": "GeneratorSpawning",
+  "value": "3",
+  "comment": "The chance of electrical generators spawning on the map. Default = Rare",
+  "options": [
+   [
+    "1",
+    "None (not recommended)"
+   ],
+   [
+    "2",
+    "Insanely Rare"
+   ],
+   [
+    "3",
+    "Extremely Rare"
+   ],
+   [
+    "4",
+    "Rare"
+   ],
+   [
+    "5",
+    "Normal"
+   ],
+   [
+    "6",
+    "Common"
+   ],
+   [
+    "7",
+    "Abundant"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnnotatedMapChance",
+  "value": "4",
+  "comment": "How often a looted map will have notes on it, written by a deceased survivor. Default = Sometimes",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "CharacterFreePoints",
+  "value": "5",
+  "comment": "Adds free points during character creation. Min: -100 Max: 100 Default: 0",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "-100",
+  "max": "100",
+  "default": "0"
+ },
+ {
+  "path": "ConstructionBonusPoints",
+  "value": "3",
+  "comment": "Gives player-built constructions extra hit points so they are  more resistant to zombie damage. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Low"
+   ],
+   [
+    "2",
+    "Low"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "High"
+   ],
+   [
+    "5",
+    "Very High"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "NightDarkness",
+  "value": "4",
+  "comment": "The level of ambient lighting at night. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Pitch Black"
+   ],
+   [
+    "2",
+    "Dark"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Bright"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "NightLength",
+  "value": "3",
+  "comment": "The time from dusk to dawn. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Always Night"
+   ],
+   [
+    "2",
+    "Long"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Short"
+   ],
+   [
+    "5",
+    "Always Day"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "BoneFracture",
+  "value": "true",
+  "comment": "If survivors can get broken limbs from impacts, zombie damage, falls etc.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "InjurySeverity",
+  "value": "2",
+  "comment": "The impact that injuries have on your body, and their healing time. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Low"
+   ],
+   [
+    "2",
+    "Normal"
+   ],
+   [
+    "3",
+    "High"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "HoursForCorpseRemoval",
+  "value": "216.0",
+  "comment": "How long, in hours, before dead zombie bodies disappear from the world.  If 0, maggots will not spawn on corpses. Min: -1.00 Max: 2147483647.00 Default: 216.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "-1.00",
+  "max": "2147483647.00",
+  "default": "216.00"
+ },
+ {
+  "path": "DecayingCorpseHealthImpact",
+  "value": "2",
+  "comment": "The impact that nearby decaying bodies has on the player's health and emotions. Default = Normal",
+  "options": [
+   [
+    "1",
+    "None"
+   ],
+   [
+    "2",
+    "Low"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "High"
+   ],
+   [
+    "5",
+    "Insane"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieHealthImpact",
+  "value": "false",
+  "comment": "Whether nearby \"living\" zombies have the same impact on the player's health and emotions.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "BloodLevel",
+  "value": "4",
+  "comment": "How much blood is sprayed on floors and walls by injuries. Default = Normal",
+  "options": [
+   [
+    "1",
+    "None"
+   ],
+   [
+    "2",
+    "Low"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "High"
+   ],
+   [
+    "5",
+    "Ultra Gore"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ClothingDegradation",
+  "value": "3",
+  "comment": "How quickly clothing degrades, becomes dirty, and bloodied. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Disabled"
+   ],
+   [
+    "2",
+    "Slow"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Fast"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "FireSpread",
+  "value": "true",
+  "comment": "If fires spread when started.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "DaysForRottenFoodRemoval",
+  "value": "-1",
+  "comment": "Number of in-game days before rotten food is removed from the map.  -1 means rotten food is never removed. Min: -1 Max: 2147483647 Default: -1",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "-1",
+  "max": "2147483647",
+  "default": "-1"
+ },
+ {
+  "path": "AllowExteriorGenerator",
+  "value": "true",
+  "comment": "If enabled, generators will work on exterior tiles.  This will allow, for example, the powering of gas pumps.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "MaxFogIntensity",
+  "value": "1",
+  "comment": "Maximum intensity of fog. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Normal"
+   ],
+   [
+    "2",
+    "Moderate"
+   ],
+   [
+    "3",
+    "Low"
+   ],
+   [
+    "4",
+    "None"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "MaxRainFxIntensity",
+  "value": "1",
+  "comment": "Maximum intensity of rain. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Normal"
+   ],
+   [
+    "2",
+    "Moderate"
+   ],
+   [
+    "3",
+    "Low"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "EnableSnowOnGround",
+  "value": "true",
+  "comment": "If snow will accumulate on the ground.  If disabled, snow will still show on vegetation and rooftops.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AttackBlockMovements",
+  "value": "true",
+  "comment": "If melee attacking slows you down.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "SurvivorHouseChance",
+  "value": "3",
+  "comment": "The chance of finding randomized buildings on the map (eg. burnt out houses,  ones containing loot stashes or dead bodies). Default = Rare",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ],
+   [
+    "7",
+    "Always Tries"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "VehicleStoryChance",
+  "value": "3",
+  "comment": "The chance of road stories (eg. police roadblocks) spawning. Default = Rare",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ],
+   [
+    "7",
+    "Always Tries"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZoneStoryChance",
+  "value": "3",
+  "comment": "The chance of stories specific to map zones (eg. a campsite in a forest) spawning. Default = Rare",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ],
+   [
+    "7",
+    "Always Tries"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AllClothesUnlocked",
+  "value": "false",
+  "comment": "Allows you to select from every piece of clothing in the game when customizing your character",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "EnableTaintedWaterText",
+  "value": "true",
+  "comment": "If tainted water will show a warning marking it as such.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "EnableVehicles",
+  "value": "true",
+  "comment": "If vehicles will spawn.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "CarSpawnRate",
+  "value": "3",
+  "comment": "How frequently vehicles can be discovered on the map. Default = Low",
+  "options": [
+   [
+    "1",
+    "None"
+   ],
+   [
+    "2",
+    "Very Low"
+   ],
+   [
+    "3",
+    "Low"
+   ],
+   [
+    "4",
+    "Normal"
+   ],
+   [
+    "5",
+    "High"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieAttractionMultiplier",
+  "value": "1.0",
+  "comment": "General engine loudness to zombies. Min: 0.00 Max: 100.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "100.00",
+  "default": "1.00"
+ },
+ {
+  "path": "VehicleEasyUse",
+  "value": "false",
+  "comment": "Whether found vehicles are locked, need keys to start etc.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "InitialGas",
+  "value": "4",
+  "comment": "How full the gas tank of discovered vehicles will be. Default = Low",
+  "options": [
+   [
+    "1",
+    "Very Low"
+   ],
+   [
+    "2",
+    "Low"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "High"
+   ],
+   [
+    "5",
+    "Very High"
+   ],
+   [
+    "6",
+    "Full"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "FuelStationGasInfinite",
+  "value": "true",
+  "comment": "If enabled, gas pumps will never run out of fuel",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "FuelStationGasMin",
+  "value": "0.0",
+  "comment": "The minimum amount of gasoline that can spawn in gas pumps. Check the \"Advanced\" box below to use a custom amount. Min: 0.00 Max: 1.00 Default: 0.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1.00",
+  "default": "0.00"
+ },
+ {
+  "path": "FuelStationGasMax",
+  "value": "0.8",
+  "comment": "The maximum amount of gasoline that can spawn in gas pumps. Check the \"Advanced\" box below to use a custom amount. Min: 0.00 Max: 1.00 Default: 0.80",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1.00",
+  "default": "0.80"
+ },
+ {
+  "path": "FuelStationGasEmptyChance",
+  "value": "20",
+  "comment": "The chance, as a percentage, that individual gas pumps will initially have no fuel. Min: 0 Max: 100 Default: 20",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "100",
+  "default": "20"
+ },
+ {
+  "path": "LockedCar",
+  "value": "3",
+  "comment": "How likely cars will be locked Default = Sometimes",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "CarGasConsumption",
+  "value": "1.0",
+  "comment": "How gas-hungry vehicles are. Min: 0.00 Max: 100.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "100.00",
+  "default": "1.00"
+ },
+ {
+  "path": "CarGeneralCondition",
+  "value": "3",
+  "comment": "General condition discovered vehicles will be in. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Low"
+   ],
+   [
+    "2",
+    "Low"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "High"
+   ],
+   [
+    "5",
+    "Very High"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "CarDamageOnImpact",
+  "value": "3",
+  "comment": "The amount of damage dealt to vehicles that crash. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Very Low"
+   ],
+   [
+    "2",
+    "Low"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "High"
+   ],
+   [
+    "5",
+    "Very High"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "DamageToPlayerFromHitByACar",
+  "value": "1",
+  "comment": "Damage received by the player from being crashed into. Default = None",
+  "options": [
+   [
+    "1",
+    "None"
+   ],
+   [
+    "2",
+    "Low"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "High"
+   ],
+   [
+    "5",
+    "Very High"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "TrafficJam",
+  "value": "true",
+  "comment": "If traffic jams consisting of wrecked cars  will appear on main roads.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "CarAlarm",
+  "value": "4",
+  "comment": "How frequently discovered vehicles have active alarms. Default = Rare",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "PlayerDamageFromCrash",
+  "value": "true",
+  "comment": "If the player can get injured from being in a car accident.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "SirenShutoffHours",
+  "value": "0.0",
+  "comment": "How many in-game hours before a wailing siren shuts off. Min: 0.00 Max: 168.00 Default: 0.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "168.00",
+  "default": "0.00"
+ },
+ {
+  "path": "ChanceHasGas",
+  "value": "2",
+  "comment": "The chance of finding a vehicle with gas in its tank. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Low"
+   ],
+   [
+    "2",
+    "Normal"
+   ],
+   [
+    "3",
+    "High"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "RecentlySurvivorVehicles",
+  "value": "2",
+  "comment": "Whether a player can discover a car that has been cared for  after the Knox infection struck. Default = Low",
+  "options": [
+   [
+    "1",
+    "None"
+   ],
+   [
+    "2",
+    "Low"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "High"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "MultiHitZombies",
+  "value": "true",
+  "comment": "If certain melee weapons will be able to strike multiple zombies in one hit.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "RearVulnerability",
+  "value": "2",
+  "comment": "Chance of being bitten when a zombie attacks from behind. Default = High",
+  "options": [
+   [
+    "1",
+    "Low"
+   ],
+   [
+    "2",
+    "Medium"
+   ],
+   [
+    "3",
+    "High"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "SirenEffectsZombies",
+  "value": "true",
+  "comment": "If zombies will head towards the sound of vehicle sirens.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalStatsModifier",
+  "value": "4",
+  "comment": "Speed at which animals stats (hunger, thirst etc.) reduce. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Ultra Fast"
+   ],
+   [
+    "2",
+    "Very Fast"
+   ],
+   [
+    "3",
+    "Fast"
+   ],
+   [
+    "4",
+    "Normal"
+   ],
+   [
+    "5",
+    "Slow"
+   ],
+   [
+    "6",
+    "Very Slow"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalMetaStatsModifier",
+  "value": "4",
+  "comment": "Speed at which animals stats (hunger, thirst etc.) reduce while in meta. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Ultra Fast"
+   ],
+   [
+    "2",
+    "Very Fast"
+   ],
+   [
+    "3",
+    "Fast"
+   ],
+   [
+    "4",
+    "Normal"
+   ],
+   [
+    "5",
+    "Slow"
+   ],
+   [
+    "6",
+    "Very Slow"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalPregnancyTime",
+  "value": "4",
+  "comment": "How long animals will be pregnant for before giving birth. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Ultra Fast"
+   ],
+   [
+    "2",
+    "Very Fast"
+   ],
+   [
+    "3",
+    "Fast"
+   ],
+   [
+    "4",
+    "Normal"
+   ],
+   [
+    "5",
+    "Slow"
+   ],
+   [
+    "6",
+    "Very Slow"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalAgeModifier",
+  "value": "4",
+  "comment": "Speed at which animals age. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Ultra Fast"
+   ],
+   [
+    "2",
+    "Very Fast"
+   ],
+   [
+    "3",
+    "Fast"
+   ],
+   [
+    "4",
+    "Normal"
+   ],
+   [
+    "5",
+    "Slow"
+   ],
+   [
+    "6",
+    "Very Slow"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalMilkIncModifier",
+  "value": "4",
+  "comment": "Default = Normal",
+  "options": [
+   [
+    "1",
+    "Ultra Fast"
+   ],
+   [
+    "2",
+    "Very Fast"
+   ],
+   [
+    "3",
+    "Fast"
+   ],
+   [
+    "4",
+    "Normal"
+   ],
+   [
+    "5",
+    "Slow"
+   ],
+   [
+    "6",
+    "Very Slow"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalWoolIncModifier",
+  "value": "4",
+  "comment": "Default = Normal",
+  "options": [
+   [
+    "1",
+    "Ultra Fast"
+   ],
+   [
+    "2",
+    "Very Fast"
+   ],
+   [
+    "3",
+    "Fast"
+   ],
+   [
+    "4",
+    "Normal"
+   ],
+   [
+    "5",
+    "Slow"
+   ],
+   [
+    "6",
+    "Very Slow"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalRanchChance",
+  "value": "5",
+  "comment": "The chance of finding animals in farm. Default = Often",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ],
+   [
+    "7",
+    "Always"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalGrassRegrowTime",
+  "value": "240",
+  "comment": "The number of hours grass will regrow after being  eaten by an animal or cut by the player. Min: 1 Max: 9999 Default: 240",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "1",
+  "max": "9999",
+  "default": "240"
+ },
+ {
+  "path": "AnimalMetaPredator",
+  "value": "false",
+  "comment": "If a meta (ie. not actually visible in-game) fox may attack  your chickens if the hutch's door is left open at night.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalMatingSeason",
+  "value": "true",
+  "comment": "If on, animals will only mate during their breeding season (if any).  Otherwise they can reproduce/lay eggs all year round.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalEggHatch",
+  "value": "4",
+  "comment": "How long before baby animals will hatch from eggs. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Ultra Fast"
+   ],
+   [
+    "2",
+    "Very Fast"
+   ],
+   [
+    "3",
+    "Fast"
+   ],
+   [
+    "4",
+    "Normal"
+   ],
+   [
+    "5",
+    "Slow"
+   ],
+   [
+    "6",
+    "Very Slow"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalSoundAttractZombies",
+  "value": "true",
+  "comment": "If true, animal calls will attract nearby zombies.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalTrackChance",
+  "value": "4",
+  "comment": "The chance of animals leaving tracks. Default = Sometimes",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "AnimalPathChance",
+  "value": "4",
+  "comment": "The chance of creating a path for animals to be hunted. Default = Sometimes",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "MaximumRatIndex",
+  "value": "25",
+  "comment": "The frequency and intensity of eg. rats in infested buildings. Min: 0 Max: 50 Default: 25",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "50",
+  "default": "25"
+ },
+ {
+  "path": "DaysUntilMaximumRatIndex",
+  "value": "90",
+  "comment": "How long it takes for the Maximum Vermin Index to be reached. Min: 0 Max: 365 Default: 90",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "365",
+  "default": "90"
+ },
+ {
+  "path": "MetaKnowledge",
+  "value": "3",
+  "comment": "If a piece of media hasn't been fully seen or read, this setting determines whether it's displayed fully, displayed as \"???\", or hidden completely. Default = Completely hidden",
+  "options": [
+   [
+    "1",
+    "Fully revealed"
+   ],
+   [
+    "2",
+    "Shown as ???"
+   ],
+   [
+    "3",
+    "Completely hidden"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "SeeNotLearntRecipe",
+  "value": "true",
+  "comment": "If true, you will be able to see any recipes that can be done with a station, even if you haven't learnt them yet.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "MaximumLootedBuildingRooms",
+  "value": "25",
+  "comment": "If a building has more than this amount of rooms it will not be looted. Min: 0 Max: 200 Default: 50",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "200",
+  "default": "50"
+ },
+ {
+  "path": "EnablePoisoning",
+  "value": "1",
+  "comment": "If poison can be added to food. Default = True",
+  "options": [
+   [
+    "1",
+    "True"
+   ],
+   [
+    "2",
+    "False"
+   ],
+   [
+    "3",
+    "Only bleach poisoning is disabled"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "MaggotSpawn",
+  "value": "1",
+  "comment": "If/when maggots can spawn in corpses. Default = In and Around Bodies",
+  "options": [
+   [
+    "1",
+    "In and Around Bodies"
+   ],
+   [
+    "2",
+    "In Bodies Only"
+   ],
+   [
+    "3",
+    "Never"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "LightBulbLifespan",
+  "value": "500.0",
+  "comment": "The higher the value, the longer lightbulbs last before breaking.  If 0, lightbulbs will never break.  Does not affect vehicle headlights. Min: 0.00 Max: 1000.00 Default: 2.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "2.00"
+ },
+ {
+  "path": "FishAbundance",
+  "value": "4",
+  "comment": "The abundance of fish in rivers and lakes. Default = Poor",
+  "options": [
+   [
+    "1",
+    "Very Poor"
+   ],
+   [
+    "2",
+    "Poor"
+   ],
+   [
+    "3",
+    "Normal"
+   ],
+   [
+    "4",
+    "Abundant"
+   ],
+   [
+    "5",
+    "Very Abundant"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "LevelForMediaXPCutoff",
+  "value": "3",
+  "comment": "When a skill is at this level or above, television/VHS/other media  will not provide XP for it. Min: 0 Max: 10 Default: 3",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "10",
+  "default": "3"
+ },
+ {
+  "path": "LevelForDismantleXPCutoff",
+  "value": "0",
+  "comment": "When a skill is at this level or above, scrapping furniture does not provide XP for the relevant skill. Does not apply to Electrical. Min: 0 Max: 10 Default: 0",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "10",
+  "default": "0"
+ },
+ {
+  "path": "BloodSplatLifespanDays",
+  "value": "0",
+  "comment": "Number of days before old blood splats are removed. Removal happens when map chunks are loaded. 0 means they will never disappear. Min: 0 Max: 365 Default: 0",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "365",
+  "default": "0"
+ },
+ {
+  "path": "LiteratureCooldown",
+  "value": "45",
+  "comment": "Number of days before one can benefit from reading previously read literature items. Min: 1 Max: 365 Default: 45",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "1",
+  "max": "365",
+  "default": "45"
+ },
+ {
+  "path": "NegativeTraitsPenalty",
+  "value": "1",
+  "comment": "If there are diminishing returns on bonus trait points provided from selecting multiple negative traits. Default = None",
+  "options": [
+   [
+    "1",
+    "None"
+   ],
+   [
+    "2",
+    "1 point penalty for every 3 negative traits selected"
+   ],
+   [
+    "3",
+    "1 point penalty for every 2 negative traits selected"
+   ],
+   [
+    "4",
+    "1 point penalty for every negative trait selected after the first"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "MinutesPerPage",
+  "value": "0.1",
+  "comment": "The number of in-game minutes it takes to read one page of a skill book. Min: 0.00 Max: 60.00 Default: 2.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "60.00",
+  "default": "2.00"
+ },
+ {
+  "path": "KillInsideCrops",
+  "value": "true",
+  "comment": "When enabled, crops and herbs grown inside buildings will die. Does not affect houseplants.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "PlantGrowingSeasons",
+  "value": "true",
+  "comment": "When enabled, the growth of plants is affected by seasons.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "PlaceDirtAboveground",
+  "value": "false",
+  "comment": "<BHC> [!] It is recommended that you DO NOT change this. Changing this can result in performance issues. [!] <RGB:1,1,1>   When enabled, dirt can be placed, and farming performed on other than the ground level.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "FarmingSpeedNew",
+  "value": "1.0",
+  "comment": "The speed of plant growth. Min: 0.10 Max: 100.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.10",
+  "max": "100.00",
+  "default": "1.00"
+ },
+ {
+  "path": "FarmingAmountNew",
+  "value": "1.5",
+  "comment": "The abundance of harvested crops. Min: 0.10 Max: 10.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.10",
+  "max": "10.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MaximumLooted",
+  "value": "25",
+  "comment": "The chance that any building will already be looted when found. Check the \"Advanced\" box below to use a custom number. Min: 0 Max: 200 Default: 25",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "200",
+  "default": "25"
+ },
+ {
+  "path": "DaysUntilMaximumLooted",
+  "value": "90",
+  "comment": "How long it takes for Maximum Looted Building Chance to be reached. Min: 0 Max: 3650 Default: 90",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "3650",
+  "default": "90"
+ },
+ {
+  "path": "RuralLooted",
+  "value": "0.5",
+  "comment": "The chance that any rural building will already be looted when found. Check the \"Advanced\" box below to use a custom number. Min: 0.00 Max: 2.00 Default: 0.50",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "2.00",
+  "default": "0.50"
+ },
+ {
+  "path": "MaximumDiminishedLoot",
+  "value": "20",
+  "comment": "The maximum loot that won't spawn when Days Until Maximum Diminished Loot is reached. Check the \"Advanced\" box below to use an exact percentage. Min: 0 Max: 100 Default: 20",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "100",
+  "default": "20"
+ },
+ {
+  "path": "DaysUntilMaximumDiminishedLoot",
+  "value": "3650",
+  "comment": "How long it takes for Maximum Diminished Loot Percentage to be reached. Min: 0 Max: 3650 Default: 3650",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "3650",
+  "default": "3650"
+ },
+ {
+  "path": "MuscleStrainFactor",
+  "value": "0.7",
+  "comment": "Functions as a multiplier when applying muscle strain from swinging weapons or carrying heavy loads. Min: 0.00 Max: 10.00 Default: 0.70",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "10.00",
+  "default": "0.70"
+ },
+ {
+  "path": "DiscomfortFactor",
+  "value": "0.8",
+  "comment": "Functions as a multiplier when applying discomfort from worn items. Min: 0.00 Max: 10.00 Default: 0.80",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "10.00",
+  "default": "0.80"
+ },
+ {
+  "path": "WoundInfectionFactor",
+  "value": "1.0",
+  "comment": "If greater than zero damage can be taken from serious wound infections. Min: 0.00 Max: 10.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "10.00",
+  "default": "1.00"
+ },
+ {
+  "path": "NoBlackClothes",
+  "value": "true",
+  "comment": "If true clothing with randomized tints will not be so dark to be virtually black.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "EasyClimbing",
+  "value": "true",
+  "comment": "Disables the failure chances when climbing sheet ropes or over walls.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "MaximumFireFuelHours",
+  "value": "8",
+  "comment": "The maximum hours of fuel that can be placed in a campfire, wood stove etc. Min: 1 Max: 168 Default: 8",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "1",
+  "max": "168",
+  "default": "8"
+ },
+ {
+  "path": "FirearmUseDamageChance",
+  "value": "2",
+  "comment": "Replaces Chance-To-Hit mechanics with Chance-To-Damage calculations.  This mode prioritizes player aiming. Default = Zombies only",
+  "options": [
+   [
+    "1",
+    "Disabled"
+   ],
+   [
+    "2",
+    "Zombies only"
+   ],
+   [
+    "3",
+    "All types of target"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "FirearmNoiseMultiplier",
+  "value": "1.0",
+  "comment": "A multiplier for the distance at which zombies can hear gunshots. Min: 0.20 Max: 2.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.20",
+  "max": "2.00",
+  "default": "1.00"
+ },
+ {
+  "path": "FirearmJamMultiplier",
+  "value": "1.0",
+  "comment": "Multiplier for firearm jamming chance. 0 disables jamming. Min: 0.00 Max: 10.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "10.00",
+  "default": "1.00"
+ },
+ {
+  "path": "FirearmMoodleMultiplier",
+  "value": "1.0",
+  "comment": "Multiplier for Moodle effects on hit chance. 0 disables Moodle penalty. Min: 0.00 Max: 10.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "10.00",
+  "default": "1.00"
+ },
+ {
+  "path": "FirearmWeatherMultiplier",
+  "value": "1.0",
+  "comment": "Multiplier for the effects of weather (wind, rain and fog) on hit chance. 0 disables weather effect. Min: 0.00 Max: 10.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "10.00",
+  "default": "1.00"
+ },
+ {
+  "path": "FirearmHeadGearEffect",
+  "value": "true",
+  "comment": "Enable to have headgear like welding masks affect hit chance",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ClayLakeChance",
+  "value": "0.05",
+  "comment": "Chance to turn a dirt floor into a clay floor. Applies to lakes. Min: 0.00 Max: 1.00 Default: 0.05",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1.00",
+  "default": "0.05"
+ },
+ {
+  "path": "ClayRiverChance",
+  "value": "0.05",
+  "comment": "Chance to turn a dirt floor into a clay floor. Applies to rivers. Min: 0.00 Max: 1.00 Default: 0.05",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1.00",
+  "default": "0.05"
+ },
+ {
+  "path": "GeneratorTileRange",
+  "value": "20",
+  "comment": "Min: 1 Max: 100 Default: 20",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "1",
+  "max": "100",
+  "default": "20"
+ },
+ {
+  "path": "GeneratorVerticalPowerRange",
+  "value": "3",
+  "comment": "How many levels both above and below a generator it can provide with electricity. Min: 1 Max: 15 Default: 3",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "1",
+  "max": "15",
+  "default": "3"
+ },
+ {
+  "path": "Basement.SpawnFrequency",
+  "value": "5",
+  "comment": "How frequently basements spawn at random locations. Default = Sometimes",
+  "options": [
+   [
+    "1",
+    "Never"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ],
+   [
+    "7",
+    "Always"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "Map.AllowMiniMap",
+  "value": "true",
+  "comment": "If enabled, a mini-map window will be available.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "Map.AllowWorldMap",
+  "value": "true",
+  "comment": "If enabled, the world map can be accessed.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "Map.MapAllKnown",
+  "value": "true",
+  "comment": "If enabled, the world map will be completely filled in on starting the game.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "Map.MapNeedsLight",
+  "value": "true",
+  "comment": "If enabled, maps can't be read unless there's a source of light available.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.Speed",
+  "value": "3",
+  "comment": "How fast zombies move. Default = Random",
+  "options": [
+   [
+    "1",
+    "Sprinters"
+   ],
+   [
+    "2",
+    "Fast Shamblers"
+   ],
+   [
+    "3",
+    "Shamblers"
+   ],
+   [
+    "4",
+    "Random"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.SprinterPercentage",
+  "value": "0",
+  "comment": "If Random Speed is enabled, this controls what percentage of zombies are Sprinters. Check the \"Advanced\" box below to use a custom percentage. Min: 0 Max: 100 Default: 0",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "100",
+  "default": "0"
+ },
+ {
+  "path": "ZombieLore.Strength",
+  "value": "2",
+  "comment": "The damage zombies inflict per attack. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Superhuman"
+   ],
+   [
+    "2",
+    "Normal"
+   ],
+   [
+    "3",
+    "Weak"
+   ],
+   [
+    "4",
+    "Random"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.Toughness",
+  "value": "2",
+  "comment": "The difficulty of killing a zombie. Default = Random",
+  "options": [
+   [
+    "1",
+    "Tough"
+   ],
+   [
+    "2",
+    "Normal"
+   ],
+   [
+    "3",
+    "Fragile"
+   ],
+   [
+    "4",
+    "Random"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.Transmission",
+  "value": "2",
+  "comment": "How the Knox Virus spreads. Default = Blood and Saliva",
+  "options": [
+   [
+    "1",
+    "Blood and Saliva"
+   ],
+   [
+    "2",
+    "Saliva Only"
+   ],
+   [
+    "3",
+    "Everyone's Infected"
+   ],
+   [
+    "4",
+    "None"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.Mortality",
+  "value": "5",
+  "comment": "How quickly the infection takes effect. Default = 2-3 Days",
+  "options": [
+   [
+    "1",
+    "Instant"
+   ],
+   [
+    "2",
+    "0-30 Seconds"
+   ],
+   [
+    "3",
+    "0-1 Minutes"
+   ],
+   [
+    "4",
+    "0-12 Hours"
+   ],
+   [
+    "5",
+    "2-3 Days"
+   ],
+   [
+    "6",
+    "1-2 Weeks"
+   ],
+   [
+    "7",
+    "Never"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.Reanimate",
+  "value": "3",
+  "comment": "How quickly infected corpses rise as zombies. Default = 0-1 Minutes",
+  "options": [
+   [
+    "1",
+    "Instant"
+   ],
+   [
+    "2",
+    "0-30 Seconds"
+   ],
+   [
+    "3",
+    "0-1 Minutes"
+   ],
+   [
+    "4",
+    "0-12 Hours"
+   ],
+   [
+    "5",
+    "2-3 Days"
+   ],
+   [
+    "6",
+    "1-2 Weeks"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.Cognition",
+  "value": "3",
+  "comment": "Zombie intelligence. Default = Basic Navigation",
+  "options": [
+   [
+    "1",
+    "Navigate and Use Doors"
+   ],
+   [
+    "2",
+    "Navigate"
+   ],
+   [
+    "3",
+    "Basic Navigation"
+   ],
+   [
+    "4",
+    "Random"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.DoorOpeningPercentage",
+  "value": "0",
+  "comment": "Min: 0 Max: 100 Default: 0",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "100",
+  "default": "0"
+ },
+ {
+  "path": "ZombieLore.CrawlUnderVehicle",
+  "value": "5",
+  "comment": "How often zombies can crawl under parked vehicles. Default = Often",
+  "options": [
+   [
+    "1",
+    "Crawlers Only"
+   ],
+   [
+    "2",
+    "Extremely Rare"
+   ],
+   [
+    "3",
+    "Rare"
+   ],
+   [
+    "4",
+    "Sometimes"
+   ],
+   [
+    "5",
+    "Often"
+   ],
+   [
+    "6",
+    "Very Often"
+   ],
+   [
+    "7",
+    "Always"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.Memory",
+  "value": "2",
+  "comment": "How long zombies remember a player after seeing or hearing them. Default = Normal",
+  "options": [
+   [
+    "1",
+    "Long"
+   ],
+   [
+    "2",
+    "Normal"
+   ],
+   [
+    "3",
+    "Short"
+   ],
+   [
+    "4",
+    "None"
+   ],
+   [
+    "5",
+    "Random"
+   ],
+   [
+    "6",
+    "Random between Normal and None"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.Sight",
+  "value": "2",
+  "comment": "Zombie vision radius. Default = Random between Normal and Poor",
+  "options": [
+   [
+    "1",
+    "Eagle"
+   ],
+   [
+    "2",
+    "Normal"
+   ],
+   [
+    "3",
+    "Poor"
+   ],
+   [
+    "4",
+    "Random"
+   ],
+   [
+    "5",
+    "Random between Normal and Poor"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.Hearing",
+  "value": "2",
+  "comment": "Zombie hearing radius. Default = Random between Normal and Poor",
+  "options": [
+   [
+    "1",
+    "Pinpoint"
+   ],
+   [
+    "2",
+    "Normal"
+   ],
+   [
+    "3",
+    "Poor"
+   ],
+   [
+    "4",
+    "Random"
+   ],
+   [
+    "5",
+    "Random between Normal and Poor"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.SpottedLogic",
+  "value": "true",
+  "comment": "Activates the new advanced stealth mechanics, which allows you to hide from zombies behind cars, takes traits and weather into account, and much more.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.ThumpNoChasing",
+  "value": "false",
+  "comment": "If zombies that have not seen/heard player can attack doors and constructions while roaming.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.ThumpOnConstruction",
+  "value": "true",
+  "comment": "If zombies can destroy player constructions and defenses.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.ActiveOnly",
+  "value": "1",
+  "comment": "Whether zombies are more \"active\" during the day or night.  \"Active\" zombies will use the speed set in the \"Speed\" setting.  \"Inactive\" zombies will be slower, and tend not to give chase. Default = Both",
+  "options": [
+   [
+    "1",
+    "Both"
+   ],
+   [
+    "2",
+    "Night"
+   ],
+   [
+    "3",
+    "Day"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.TriggerHouseAlarm",
+  "value": "false",
+  "comment": "If zombies trigger house alarms when breaking through windows or doors.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.ZombiesDragDown",
+  "value": "true",
+  "comment": "If multiple attacking zombies can drag you down and kill you.  Dependent on zombie strength.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.ZombiesCrawlersDragDown",
+  "value": "false",
+  "comment": "If crawler zombies beside a player contribute to the chance of being dragged down and killed by a group of zombies.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.ZombiesFenceLunge",
+  "value": "true",
+  "comment": "If zombies have a chance to lunge at you after climbing over a fence or through a window if you're too close.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.ZombiesArmorFactor",
+  "value": "2.0",
+  "comment": "Serves as a multiplier when determining the effectiveness of armor worn by zombies. Min: 0.00 Max: 100.00 Default: 2.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "100.00",
+  "default": "2.00"
+ },
+ {
+  "path": "ZombieLore.ZombiesMaxDefense",
+  "value": "85",
+  "comment": "The maximum defense percentage that any worn protective garments can provide to a zombie. Min: 0 Max: 100 Default: 85",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "100",
+  "default": "85"
+ },
+ {
+  "path": "ZombieLore.ChanceOfAttachedWeapon",
+  "value": "6",
+  "comment": "Percentage chance of having a random attached weapon. Min: 0 Max: 100 Default: 6",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "100",
+  "default": "6"
+ },
+ {
+  "path": "ZombieLore.ZombiesFallDamage",
+  "value": "1.0",
+  "comment": "How much damage zombies take when falling from height. Min: 0.00 Max: 100.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "100.00",
+  "default": "1.00"
+ },
+ {
+  "path": "ZombieLore.DisableFakeDead",
+  "value": "1",
+  "comment": "Whether some dead-looking zombies will reanimate and attack the player. Default = World Zombies",
+  "options": [
+   [
+    "1",
+    "World Zombies"
+   ],
+   [
+    "2",
+    "World and Combat Zombies"
+   ],
+   [
+    "3",
+    "Never"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.PlayerSpawnZombieRemoval",
+  "value": "1",
+  "comment": "Zombies will not spawn where players spawn. Default = Inside the building and around it",
+  "options": [
+   [
+    "1",
+    "Inside the building and around it"
+   ],
+   [
+    "2",
+    "Inside the building"
+   ],
+   [
+    "3",
+    "Inside the room"
+   ],
+   [
+    "4",
+    "Zombies can spawn anywhere"
+   ]
+  ],
+  "is_bool": false,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "ZombieLore.FenceThumpersRequired",
+  "value": "25",
+  "comment": "How many zombies it takes to damage a tall fence. Min: -1 Max: 100 Default: 25",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "-1",
+  "max": "100",
+  "default": "25"
+ },
+ {
+  "path": "ZombieLore.FenceDamageMultiplier",
+  "value": "1.0",
+  "comment": "How quickly zombies damage tall fences. Min: 0.01 Max: 100.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.01",
+  "max": "100.00",
+  "default": "1.00"
+ },
+ {
+  "path": "ZombieConfig.PopulationMultiplier",
+  "value": "0.65",
+  "comment": "Set by the \"Zombie Count\" population option, or by a custom number here. Insane = 2.5, Very High = 1.6, High = 1.2, Normal = 0.65, Low = 0.15, None = 0.0. Min: 0.00 Max: 4.00 Default: 0.65",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "0.65"
+ },
+ {
+  "path": "ZombieConfig.PopulationStartMultiplier",
+  "value": "1.0",
+  "comment": "A multiplier for the desired zombie population at the start of the game. Insane = 3.0, Very High = 2.0, High = 1.5, Normal = 1.0, Low = 0.5, None = 0.0. Min: 0.00 Max: 4.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "1.00"
+ },
+ {
+  "path": "ZombieConfig.PopulationPeakMultiplier",
+  "value": "1.5",
+  "comment": "A multiplier for the desired zombie population on the peak day. Insane = 3.0, Very High = 2.0, High = 1.5, Normal = 1.0, Low = 0.5, None = 0.0. Min: 0.00 Max: 4.00 Default: 1.50",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "4.00",
+  "default": "1.50"
+ },
+ {
+  "path": "ZombieConfig.PopulationPeakDay",
+  "value": "28",
+  "comment": "The day when the population reaches its peak. Min: 1 Max: 365 Default: 28",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "1",
+  "max": "365",
+  "default": "28"
+ },
+ {
+  "path": "ZombieConfig.RespawnHours",
+  "value": "0.0",
+  "comment": "The number of hours that must pass before zombies may respawn in a cell. If 0, spawning is disabled. Min: 0.00 Max: 8760.00 Default: 0.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "8760.00",
+  "default": "0.00"
+ },
+ {
+  "path": "ZombieConfig.RespawnUnseenHours",
+  "value": "0.0",
+  "comment": "The number of hours that a chunk must be unseen before zombies may respawn in it. Min: 0.00 Max: 8760.00 Default: 0.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "8760.00",
+  "default": "0.00"
+ },
+ {
+  "path": "ZombieConfig.RespawnMultiplier",
+  "value": "0.0",
+  "comment": "The fraction of a cell's desired population that may respawn every RespawnHours. Min: 0.00 Max: 1.00 Default: 0.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1.00",
+  "default": "0.00"
+ },
+ {
+  "path": "ZombieConfig.RedistributeHours",
+  "value": "12.0",
+  "comment": "The number of hours that must pass before zombies migrate  to empty parts of the same cell. If 0, migration is disabled. Min: 0.00 Max: 8760.00 Default: 12.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "8760.00",
+  "default": "12.00"
+ },
+ {
+  "path": "ZombieConfig.FollowSoundDistance",
+  "value": "100",
+  "comment": "The distance a zombie will try to walk towards the last sound it heard. Min: 10 Max: 1000 Default: 100",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "10",
+  "max": "1000",
+  "default": "100"
+ },
+ {
+  "path": "ZombieConfig.RallyGroupSize",
+  "value": "20",
+  "comment": "The size of groups real zombies form when idle. 0 means zombies don't form groups. Groups don't form inside buildings or forest zones. Min: 0 Max: 1000 Default: 20",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "1000",
+  "default": "20"
+ },
+ {
+  "path": "ZombieConfig.RallyGroupSizeVariance",
+  "value": "50",
+  "comment": "The amount, as a percentage, that zombie groups can vary in size from the default (both larger and smaller).   For example, at 50% variance with a default group size of 20, groups will vary in size from 10-30. Min: 0 Max: 100 Default: 50",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "100",
+  "default": "50"
+ },
+ {
+  "path": "ZombieConfig.RallyTravelDistance",
+  "value": "30",
+  "comment": "The distance real zombies travel to form groups when idle. Min: 5 Max: 50 Default: 20",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "5",
+  "max": "50",
+  "default": "20"
+ },
+ {
+  "path": "ZombieConfig.RallyGroupSeparation",
+  "value": "15",
+  "comment": "The distance between zombie groups. Min: 5 Max: 25 Default: 15",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "5",
+  "max": "25",
+  "default": "15"
+ },
+ {
+  "path": "ZombieConfig.RallyGroupRadius",
+  "value": "5",
+  "comment": "How close members of a zombie group stay to the group's \"leader\". Min: 1 Max: 10 Default: 3",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "1",
+  "max": "10",
+  "default": "3"
+ },
+ {
+  "path": "ZombieConfig.ZombiesCountBeforeDelete",
+  "value": "300",
+  "comment": "Controls the maximum number of zombies tracked before cleanup occurs. 0 means zombies will not be cleaned up. The default value (300) is strongly recommended. Increasing this value or setting to 0 may cause severe performance problems. For troubleshooting and bug-report purposes, please reproduce any issue with the default setting before submitting a report. Min: 0 Max: 5000 Default: 300",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0",
+  "max": "5000",
+  "default": "300"
+ },
+ {
+  "path": "MultiplierConfig.Global",
+  "value": "2.0",
+  "comment": "The rate at which all skills level up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.GlobalToggle",
+  "value": "true",
+  "comment": "When enabled, all skills will use the Global Multiplier.",
+  "options": [],
+  "is_bool": true,
+  "is_string": false,
+  "min": null,
+  "max": null,
+  "default": null
+ },
+ {
+  "path": "MultiplierConfig.Fitness",
+  "value": "1.0",
+  "comment": "Rate at which Fitness skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Strength",
+  "value": "1.0",
+  "comment": "Rate at which Strength skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Sprinting",
+  "value": "1.0",
+  "comment": "Rate at which Sprinting skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Lightfoot",
+  "value": "1.0",
+  "comment": "Rate at which Lightfooted skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Nimble",
+  "value": "1.0",
+  "comment": "Rate at which Nimble skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Sneak",
+  "value": "1.0",
+  "comment": "Rate at which Sneaking skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Axe",
+  "value": "1.0",
+  "comment": "Rate at which Axe skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Blunt",
+  "value": "1.0",
+  "comment": "Rate at which Long Blunt skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.SmallBlunt",
+  "value": "1.0",
+  "comment": "Rate at which Short Blunt skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.LongBlade",
+  "value": "1.0",
+  "comment": "Rate at which Long Blade skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.SmallBlade",
+  "value": "1.0",
+  "comment": "Rate at which Short Blade skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Spear",
+  "value": "1.0",
+  "comment": "Rate at which Spear skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Maintenance",
+  "value": "1.0",
+  "comment": "Rate at which Maintenance skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Woodwork",
+  "value": "1.0",
+  "comment": "Rate at which Carpentry skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Cooking",
+  "value": "1.0",
+  "comment": "Rate at which Cooking skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Farming",
+  "value": "1.0",
+  "comment": "Rate at which Agriculture skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Doctor",
+  "value": "1.0",
+  "comment": "Rate at which First Aid skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Electricity",
+  "value": "1.0",
+  "comment": "Rate at which Electrical skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.MetalWelding",
+  "value": "1.0",
+  "comment": "Rate at which Welding skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Mechanics",
+  "value": "1.0",
+  "comment": "Rate at which Mechanics skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Tailoring",
+  "value": "1.0",
+  "comment": "Rate at which Tailoring skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Aiming",
+  "value": "1.0",
+  "comment": "Rate at which Aiming skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Reloading",
+  "value": "1.0",
+  "comment": "Rate at which Reloading skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Fishing",
+  "value": "1.0",
+  "comment": "Rate at which Fishing skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Trapping",
+  "value": "1.0",
+  "comment": "Rate at which Trapping skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.PlantScavenging",
+  "value": "1.0",
+  "comment": "Rate at which Foraging skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.FlintKnapping",
+  "value": "1.0",
+  "comment": "Rate at which Knapping skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Masonry",
+  "value": "1.0",
+  "comment": "Rate at which Masonry skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Pottery",
+  "value": "1.0",
+  "comment": "Rate at which Pottery skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Carving",
+  "value": "1.0",
+  "comment": "Rate at which Carving skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Husbandry",
+  "value": "1.0",
+  "comment": "Rate at which Animal Care skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Tracking",
+  "value": "1.0",
+  "comment": "Rate at which Tracking skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Blacksmith",
+  "value": "1.0",
+  "comment": "Rate at which Blacksmithing skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Butchering",
+  "value": "1.0",
+  "comment": "Rate at which Butchering skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ },
+ {
+  "path": "MultiplierConfig.Glassmaking",
+  "value": "1.0",
+  "comment": "Rate at which Glassmaking skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00",
+  "options": [],
+  "is_bool": false,
+  "is_string": false,
+  "min": "0.00",
+  "max": "1000.00",
+  "default": "1.00"
+ }
+]

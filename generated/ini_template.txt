@@ -1,0 +1,421 @@
+# Players can hurt and kill other players
+PVP=@@INI_PVP@@
+
+# PVP is logged to admin chat
+PVPLogToolChat=@@INI_PVPLogToolChat@@
+
+# PVP is logged to file
+PVPLogToolFile=@@INI_PVPLogToolFile@@
+
+# Game time stops when there are no players online
+PauseEmpty=@@INI_PauseEmpty@@
+
+# Toggles global chat on or off.
+GlobalChat=@@INI_GlobalChat@@
+
+ChatStreams=@@INI_ChatStreams@@
+
+# Clients may join without already having an account in the whitelist. If set to false, administrators must manually create username/password combos.
+Open=@@INI_Open@@
+
+# The first welcome message visible in the chat panel. This will be displayed immediately after player login. you can use RGB colours to chance the colour of the welcome message. You can also use < LINE>, without the space, to create a separate lines within your text. Use: \<RGB:1,0,0> This message will show up red!
+ServerWelcomeMessage=@@INI_ServerWelcomeMessage@@
+
+# Display usernames above player's heads in-game.
+DisplayUserName=@@INI_DisplayUserName@@
+
+# Display first & last name above player's heads.
+ShowFirstAndLastName=@@INI_ShowFirstAndLastName@@
+
+UsernameDisguises=@@INI_UsernameDisguises@@
+
+HideDisguisedUserName=@@INI_HideDisguisedUserName@@
+
+SwitchZombiesOwnershipEachUpdate=@@INI_SwitchZombiesOwnershipEachUpdate@@
+
+# Force every new player to spawn at these set x,y,z world coordinates. Find desired coordinates at map.projectzomboid.com. (Ignored when 0,0,0)
+SpawnPoint=@@INI_SpawnPoint@@
+
+# Players can enter and leave PVP on an individual basis. A player can only hurt another player when at least one of them is in PVP mode - as shown by the unobscured skull and crossbones on the left of the screen. When SafetySystem=false, players are free to hurt each other at any time if PVP is enabled.
+SafetySystem=@@INI_SafetySystem@@
+
+# Display a skull icon over the head of players who have entered PVP mode
+ShowSafety=@@INI_ShowSafety@@
+
+# The time it takes for a player to enter and leave PVP mode Min: 0 Max: 1000 Default: 2
+SafetyToggleTimer=@@INI_SafetyToggleTimer@@
+
+# The delay before a player can enter or leave PVP mode again, having recently done so Min: 0 Max: 1000 Default: 3
+SafetyCooldownTimer=@@INI_SafetyCooldownTimer@@
+
+# Min: 0 Max: 60 Default: 60
+SafetyDisconnectDelay=@@INI_SafetyDisconnectDelay@@
+
+# Item types new players spawn with. Separate multiple item types with commas. Example: Base.Axe,Base.Bag_BigHikingBag
+SpawnItems=@@INI_SpawnItems@@
+
+# Default starting port for player data. If UDP, this is this one of two ports used. Min: 0 Max: 65535 Default: 16261
+DefaultPort=@@INI_DefaultPort@@
+
+# Min: 0 Max: 65535 Default: 16262
+UDPPort=@@INI_UDPPort@@
+
+# Reset ID determines if the server has undergone a soft-reset. If this number does match the client, the client must create a new character. Used in conjunction with PlayerServerID. It is strongly advised that you backup these IDs somewhere Min: 0 Max: 2147483647 Default: 891661716
+ResetID=@@INI_ResetID@@
+
+# Enter the mod loading ID here. It can be found in \Steam\steamapps\workshop\modID\mods\modName\info.txt
+Mods=@@INI_Mods@@
+
+# Enter the foldername of the mod found in \Steam\steamapps\workshop\modID\mods\modName\media\maps\
+Map=@@INI_Map@@
+
+# Kick clients whose game files don't match the server's.
+DoLuaChecksum=@@INI_DoLuaChecksum@@
+
+DenyLoginOnOverloadedServer=@@INI_DenyLoginOnOverloadedServer@@
+
+# Shows the server on the in-game browser. (Note: Steam-enabled servers are always visible in the Steam server browser)
+Public=@@INI_Public@@
+
+# Name of the server displayed in the in-game browser and, if applicable, the Steam browser
+PublicName=@@INI_PublicName@@
+
+# Description displayed in the in-game public server browser. Typing   will create a new line in your description
+PublicDescription=@@INI_PublicDescription@@
+
+# Maximum number of players that can be on the server at one time. This excludes admins.
+# WARNING: Server player counts above 32 will potentially result in poor map streaming and desync. Please advance with caution. Min: 1 Max: 254 Default: 32
+MaxPlayers=@@INI_MaxPlayers@@
+
+# Ping limit, in milliseconds, before a player is kicked from the server. (Set to 0 to disable) Min: 0 Max: 2147483647 Default: 0
+PingLimit=@@INI_PingLimit@@
+
+# Items will not respawn in buildings that players have claimed as a safehouse
+SafehousePreventsLootRespawn=@@INI_SafehousePreventsLootRespawn@@
+
+# Remove player accounts from the whitelist after death. This prevents players creating a new character after death on Open=false servers
+DropOffWhiteListAfterDeath=@@INI_DropOffWhiteListAfterDeath@@
+
+# All forms of fire are disabled - except for campfires
+NoFire=@@INI_NoFire@@
+
+# If checked, every time a player dies a global message will be displayed in the chat
+AnnounceDeath=@@INI_AnnounceDeath@@
+
+# If checked, every time an animal dies a global message will be displayed in the chat
+AnnounceAnimalDeath=@@INI_AnnounceAnimalDeath@@
+
+# Loaded parts of the map are saved after this set number of real-world minutes have passed. (The map is usually saved only after clients leave a loaded area) Min: 0 Max: 2147483647 Default: 0
+SaveWorldEveryMinutes=@@INI_SaveWorldEveryMinutes@@
+
+# Both admins and players can claim safehouses
+PlayerSafehouse=@@INI_PlayerSafehouse@@
+
+# Only admins can claim safehouses
+AdminSafehouse=@@INI_AdminSafehouse@@
+
+# Allow non-members to enter a safehouse without being invited
+SafehouseAllowTrepass=@@INI_SafehouseAllowTrepass@@
+
+# Allow fire to damage safehouses
+SafehouseAllowFire=@@INI_SafehouseAllowFire@@
+
+# Allow non-members to take items from safehouses
+SafehouseAllowLoot=@@INI_SafehouseAllowLoot@@
+
+# Players will respawn in a safehouse that they were a member of before they died
+SafehouseAllowRespawn=@@INI_SafehouseAllowRespawn@@
+
+# Players must have survived this number of in-game days before they are allowed to claim a safehouse Min: 0 Max: 2147483647 Default: 0
+SafehouseDaySurvivedToClaim=@@INI_SafehouseDaySurvivedToClaim@@
+
+# Players are automatically removed from a safehouse they have not visited for this many real-world hours Min: 0 Max: 2147483647 Default: 144
+SafeHouseRemovalTime=@@INI_SafeHouseRemovalTime@@
+
+# Governs whether players can claim non-residential buildings.
+SafehouseAllowNonResidential=@@INI_SafehouseAllowNonResidential@@
+
+SafehouseDisableDisguises=@@INI_SafehouseDisableDisguises@@
+
+# Min: 0 Max: 2147483647 Default: 20000
+MaxSafezoneSize=@@INI_MaxSafezoneSize@@
+
+# Allow players to destroy world objects with sledgehammers
+AllowDestructionBySledgehammer=@@INI_AllowDestructionBySledgehammer@@
+
+# Allow players to destroy world objects only in their safehouse (require AllowDestructionBySledgehammer to true).
+SledgehammerOnlyInSafehouse=@@INI_SledgehammerOnlyInSafehouse@@
+
+War=@@INI_War@@
+
+# Time in seconds before the war starts. Min: 60 Max: 2147483647 Default: 600
+WarStartDelay=@@INI_WarStartDelay@@
+
+# War duration in seconds. Min: 60 Max: 2147483647 Default: 3600
+WarDuration=@@INI_WarDuration@@
+
+# Safehouse hit points limit. Min: 0 Max: 2147483647 Default: 3
+WarSafehouseHitPoints=@@INI_WarSafehouseHitPoints@@
+
+# ServerPlayerID determines if a character is from another server, or single player. This value may be changed by soft resets. If this number does match the client, the client must create a new character. This is used in conjunction with ResetID. It is strongly advised that you backup these IDs somewhere
+ServerPlayerID=@@INI_ServerPlayerID@@
+
+# The port for the RCON (Remote Console) Min: 0 Max: 65535 Default: 27015
+RCONPort=@@INI_RCONPort@@
+
+# RCON password (Pick a strong password)
+RCONPassword=@@INI_RCONPassword@@
+
+# Enables global text chat integration with a Discord channel
+DiscordEnable=@@INI_DiscordEnable@@
+
+# Discord bot access token
+DiscordToken=@@INI_DiscordToken@@
+
+# The Discord chat channel name
+DiscordChatChannel=@@INI_DiscordChatChannel@@
+
+# The Discord logs channel name
+DiscordLogChannel=@@INI_DiscordLogChannel@@
+
+# The Discord commands channel name
+DiscordCommandChannel=@@INI_DiscordCommandChannel@@
+
+# The Slack incoming webhook URL
+WebhookAddress=@@INI_WebhookAddress@@
+
+# Clients must know this password to join the server. (Ignored when hosting a server via the Host button)
+Password=@@INI_Password@@
+
+# Limits the number of different accounts a single Steam user may create on this server. Ignored when using the Hosts button. Min: 0 Max: 2147483647 Default: 0
+MaxAccountsPerUser=@@INI_MaxAccountsPerUser@@
+
+# Allow co-op/splitscreen players
+AllowCoop=@@INI_AllowCoop@@
+
+# Players are allowed to sleep when their survivor becomes tired, but they do not NEED to sleep
+SleepAllowed=@@INI_SleepAllowed@@
+
+# Players get tired and need to sleep. (Ignored if SleepAllowed=false)
+SleepNeeded=@@INI_SleepNeeded@@
+
+# WIP: Activating this setting may cause visual desynchronization of player positions.
+KnockedDownAllowed=@@INI_KnockedDownAllowed@@
+
+SneakModeHideFromOtherPlayers=@@INI_SneakModeHideFromOtherPlayers@@
+
+UltraSpeedDoesnotAffectToAnimals=@@INI_UltraSpeedDoesnotAffectToAnimals@@
+
+# List Workshop Mod IDs for the server to download. Each must be separated by a semicolon. Example: WorkshopItems=514427485;513111049
+WorkshopItems=@@INI_WorkshopItems@@
+
+# Show Steam usernames and avatars in the Players list.
+SteamScoreboard=@@INI_SteamScoreboard@@
+
+# Enable the Steam VAC system
+SteamVAC=@@INI_SteamVAC@@
+
+# Attempt to configure a UPnP-enabled internet gateway to automatically setup port forwarding rules. The server will fall back to default ports if this fails
+UPnP=@@INI_UPnP@@
+
+# VOIP is enabled when checked
+VoiceEnable=@@INI_VoiceEnable@@
+
+# The minimum tile distance over which VOIP sounds can be heard. Min: 0.00 Max: 100000.00 Default: 10.00
+VoiceMinDistance=@@INI_VoiceMinDistance@@
+
+# The maximum tile distance over which VOIP sounds can be heard. Min: 0.00 Max: 100000.00 Default: 100.00
+VoiceMaxDistance=@@INI_VoiceMaxDistance@@
+
+# Toggle directional audio for VOIP
+Voice3D=@@INI_Voice3D@@
+
+# Min: 10.00 Max: 150.00 Default: 70.00
+SpeedLimit=@@INI_SpeedLimit@@
+
+LoginQueueEnabled=@@INI_LoginQueueEnabled@@
+
+# Min: 20 Max: 1200 Default: 60
+LoginQueueConnectTimeout=@@INI_LoginQueueConnectTimeout@@
+
+# Set the IP from which the server is broadcast. This is for network configurations with multiple IP addresses, such as server farms
+server_browser_announced_ip=@@INI_server_browser_announced_ip@@
+
+# Players can respawn in-game at the coordinates where they died
+PlayerRespawnWithSelf=@@INI_PlayerRespawnWithSelf@@
+
+# Players can respawn in-game at a split screen / Remote Play player's location
+PlayerRespawnWithOther=@@INI_PlayerRespawnWithOther@@
+
+# Governs how fast time passes while players sleep. Value multiplies the speed of the time that passes during sleeping. Min: 1.00 Max: 100.00 Default: 40.00
+FastForwardMultiplier=@@INI_FastForwardMultiplier@@
+
+# Safehouse acts like a normal house if an owner of the safehouse is connected (so secure when the owner is offline)
+DisableSafehouseWhenOwnerConnected=@@INI_DisableSafehouseWhenOwnerConnected@@
+
+# Players can create factions when true
+Faction=@@INI_Faction@@
+
+# Players must survive this number of in-game days before being allowed to create a faction Min: 0 Max: 2147483647 Default: 0
+FactionDaySurvivedToCreate=@@INI_FactionDaySurvivedToCreate@@
+
+# Number of players required as faction members before the faction owner can create a group tag Min: 1 Max: 2147483647 Default: 1
+FactionPlayersRequiredForTag=@@INI_FactionPlayersRequiredForTag@@
+
+# Disables radio transmissions from players with an access level
+DisableRadioStaff=@@INI_DisableRadioStaff@@
+
+# Disables radio transmissions from players with 'admin' access level
+DisableRadioAdmin=@@INI_DisableRadioAdmin@@
+
+# Disables radio transmissions from players with 'gm' access level
+DisableRadioGM=@@INI_DisableRadioGM@@
+
+# Disables radio transmissions from players with 'overseer' access level
+DisableRadioOverseer=@@INI_DisableRadioOverseer@@
+
+# Disables radio transmissions from players with 'moderator' access level
+DisableRadioModerator=@@INI_DisableRadioModerator@@
+
+# Disables radio transmissions from invisible players
+DisableRadioInvisible=@@INI_DisableRadioInvisible@@
+
+# Semicolon-separated list of commands that will not be written to the cmd.txt server log. For example:  -vehicle. Inputting * means do NOT write any vehicle command. Inputting:  +vehicle.installPart means DO write that command
+ClientCommandFilter=@@INI_ClientCommandFilter@@
+
+# Semicolon-separated list of actions that will be written to the ClientActionLogs.txt server log.
+ClientActionLogs=@@INI_ClientActionLogs@@
+
+# Track changes in player perk levels in PerkLog.txt server log
+PerkLogs=@@INI_PerkLogs@@
+
+# Maximum number of items that can be placed in a container.  Zero means there is no limit. (PLEASE NOTE: This includes individual small items such as nails. A limit of 50 will mean only 50 nails can be stored.) Min: 0 Max: 9000 Default: 0
+ItemNumbersLimitPerContainer=@@INI_ItemNumbersLimitPerContainer@@
+
+# Number of days before old blood splats are removed.
+# Removal happens when map chunks are loaded.
+# Zero means they will never disappear Min: 0 Max: 365 Default: 0
+BloodSplatLifespanDays=@@INI_BloodSplatLifespanDays@@
+
+# Allow use of non-ASCII (cyrillic etc) characters in usernames
+AllowNonAsciiUsername=@@INI_AllowNonAsciiUsername@@
+
+BanKickGlobalSound=@@INI_BanKickGlobalSound@@
+
+# If enabled, when HoursForCorpseRemoval triggers, it will also remove player's corpses from the ground.
+RemovePlayerCorpsesOnCorpseRemoval=@@INI_RemovePlayerCorpsesOnCorpseRemoval@@
+
+# If true, player can use the "delete all" button on bins.
+TrashDeleteAll=@@INI_TrashDeleteAll@@
+
+# If true, player can hit again when struck by another player.
+PVPMeleeWhileHitReaction=@@INI_PVPMeleeWhileHitReaction@@
+
+# If true, players will have to mouse over someone to see their display name.
+MouseOverToSeeDisplayName=@@INI_MouseOverToSeeDisplayName@@
+
+# If true, automatically hide the player you can't see (like zombies).
+HidePlayersBehindYou=@@INI_HidePlayersBehindYou@@
+
+# Damage multiplier for PVP melee attacks. Min: 0.00 Max: 500.00 Default: 30.00
+PVPMeleeDamageModifier=@@INI_PVPMeleeDamageModifier@@
+
+# Damage multiplier for PVP ranged attacks. Min: 0.00 Max: 500.00 Default: 50.00
+PVPFirearmDamageModifier=@@INI_PVPFirearmDamageModifier@@
+
+# Modify the range of zombie attraction to cars. (Lower values can help with lag.) Min: 0.00 Max: 10.00 Default: 0.50
+CarEngineAttractionModifier=@@INI_CarEngineAttractionModifier@@
+
+# Governs whether players bump (and knock over) other players when running through them.
+PlayerBumpPlayer=@@INI_PlayerBumpPlayer@@
+
+# Controls display of remote players on the in-game map. 1=Hidden 2=Friends 3=Friends and nearby players 4=Everyone Min: 1 Max: 4 Default: 1
+MapRemotePlayerVisibility=@@INI_MapRemotePlayerVisibility@@
+
+# Min: 1 Max: 300 Default: 5
+BackupsCount=@@INI_BackupsCount@@
+
+BackupsOnStart=@@INI_BackupsOnStart@@
+
+BackupsOnVersionChange=@@INI_BackupsOnVersionChange@@
+
+# Min: 0 Max: 1500 Default: 0
+BackupsPeriod=@@INI_BackupsPeriod@@
+
+# Disables vehicle towing
+DisableVehicleTowing=@@INI_DisableVehicleTowing@@
+
+# Disables trailer towing
+DisableTrailerTowing=@@INI_DisableTrailerTowing@@
+
+# Disables burnt vehicle towing
+DisableBurntTowing=@@INI_DisableBurntTowing@@
+
+# Path to the file with the list of words to be prohibited. Each word must be on a separate line
+BadWordListFile=@@INI_BadWordListFile@@
+
+# Path to the file with the list of words that should be allowed, even if they contain bad word. Each word should be on a separate line.
+GoodWordListFile=@@INI_GoodWordListFile@@
+
+# What to do with the sender of a bad word in the chat: 1 - ban, 2 - kick, 3 - record the violation in the database, 4 - mute
+BadWordPolicy=@@INI_BadWordPolicy@@
+
+# The symbol or piece of text that will replace the bad word
+BadWordReplacement=@@INI_BadWordReplacement@@
+
+# Disables safety system anti-cheat protection.
+AntiCheatSafety=@@INI_AntiCheatSafety@@
+
+# Disables character speed anti-cheat protection.
+AntiCheatSpeed=@@INI_AntiCheatSpeed@@
+
+# Disables character no-clipping anti-cheat protection.
+AntiCheatNoClip=@@INI_AntiCheatNoClip@@
+
+# Disables character hit anti-cheat protection.
+AntiCheatHit=@@INI_AntiCheatHit@@
+
+# Disables packet exception checks anti-cheat protection.
+AntiCheatPacketException=@@INI_AntiCheatPacketException@@
+
+# Disables player permissions anti-cheat protection.
+AntiCheatPermission=@@INI_AntiCheatPermission@@
+
+# Disables player XP anti-cheat protection.
+AntiCheatXP=@@INI_AntiCheatXP@@
+
+# Disables safehouse anti-cheat protection.
+AntiCheatSafeHouse=@@INI_AntiCheatSafeHouse@@
+
+# Disables player anti-cheat protection.
+AntiCheatPlayer=@@INI_AntiCheatPlayer@@
+
+# Disables checksum anti-cheat protection.
+AntiCheatChecksum=@@INI_AntiCheatChecksum@@
+
+# Sets the multiplayer update period in seconds. Statistics is disabled if value is 0. Min: 0 Max: 10 Default: 1
+MultiplayerStatisticsPeriod=@@INI_MultiplayerStatisticsPeriod@@
+
+# Disables scoreboard.
+DisableScoreboard=@@INI_DisableScoreboard@@
+
+# Hides admins in the player list.
+HideAdminsInPlayerList=@@INI_HideAdminsInPlayerList@@
+
+# Sets the limit for processing network packets from each client on the server. Min: 100 Max: 1000 Default: 300
+MaxPacketsPerSecond=@@INI_MaxPacketsPerSecond@@
+
+# Shows player character coordinates in the lower right corner.
+ShowCoordinates=@@INI_ShowCoordinates@@
+
+# The worldgen seed used to generate the world.
+# If you want to change this, put a new value in and delete map_worldgen.bin in your save directory.
+Seed=@@INI_Seed@@
+
+UsePhysicsHitReaction=@@INI_UsePhysicsHitReaction@@
+
+# Min: 64 Max: 1024 Default: 200
+ChatMessageCharacterLimit=@@INI_ChatMessageCharacterLimit@@
+
+# Min: 1 Max: 30 Default: 3
+ChatMessageSlowModeTime=@@INI_ChatMessageSlowModeTime@@
