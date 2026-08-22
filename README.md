@@ -1,6 +1,6 @@
-# Console Duo
+# Configuração fácil: Server de Project Zomboid
 
-Editor visual das configurações do servidor Project Zomboid **Duo** — o
+Editor visual das configurações do servidor Project Zomboid o
 `server.ini` e o `SandboxVars.lua`, num painel só, com todas as
 configurações explicadas em português e o arquivo pronto pra copiar de
 volta pro servidor a cada mudança.
@@ -10,7 +10,7 @@ Publicado como artifact: https://claude.ai/code/artifact/5d279e7b-a906-43d0-a74f
 ## Estrutura do projeto
 
 ```
-console-duo/
+easy-config-pz-server/
 ├── source/                     os .ini/.lua originais do servidor (snapshot)
 │   ├── Duo.ini
 │   └── Duo_SandboxVars.lua
